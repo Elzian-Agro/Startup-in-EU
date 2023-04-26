@@ -1,0 +1,103 @@
+/*section one*/
+.section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 180px;
+    height: 350px;
+    background-image: linear-gradient(to bottom right, rgb(12,44,139), yellow);
+}
+
+.background-card{
+    background-color: rgb(197, 212, 255);
+    color: rgb(12,44,139);
+    border-radius: 30px;
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 50px;
+}
+
+.background-card {
+    transition: all 0.3s ease;
+  }
+  
+  .background-card:hover {
+    transform: scale(1.1);
+  }
+  
+.link{
+    color: white;
+}
+/*section one end*/
+
+/*section two*/
+.section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.fa-solid{
+    color: #0c2c8b;
+}
+
+.list-text {
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px;
+  }
+
+.un-ordered-list{
+    list-style-type: square;
+    color: rgb(53, 53, 53);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.ul-icon{
+    list-style-image: url(../images/Initiative/check-circle.svg);
+    padding: 8px;
+}
+
+.list-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 50px;
+}
+
+.corporation-heading {
+    font-weight: bold;
+    padding-right: 70px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+/*section two end*/
+
+
+/*section three*/
+.section-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+/*section three end*/
