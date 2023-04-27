@@ -32,6 +32,8 @@
 .link{
     color: white;
 }
+
+
 /*section one end*/
 
 /*section two*/
@@ -42,7 +44,7 @@
     flex-direction: column;
     height: 350px;
     padding-top: 300px;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
 }
 
 .fa-solid{
@@ -54,7 +56,7 @@
     display: inline-block;
     vertical-align: middle;
     padding: 15px;
-  }
+}
 
 .un-ordered-list{
     list-style-type: square;
@@ -87,6 +89,38 @@
     vertical-align: middle;
   }
 
+
+  
+@media (max-width: 600px) {
+    .section-two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 350px;
+        padding-top: 300px;
+        padding-bottom: 250px;
+    }
+    
+    .fa-solid{
+        color: #0c2c8b;
+    }
+    
+    .list-text {
+        margin-left: 5px;
+        padding: 10px;
+    }
+    
+    .un-ordered-list{
+        color: rgb(53, 53, 53);
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        font-size: 14px;
+    }
+}
 /*section two end*/
 
 
@@ -97,7 +131,37 @@
     align-items: center;
     flex-direction: column;
     height: 350px;
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 350px;
+    padding-bottom: 250px;
 }
 /*section three end*/
+
+/* Arrow Animation*/
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation-iteration-count: 1;
+  }
+  
+  .path.animate {
+    animation: dash 1.5s linear forwards;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .dashed {
+    stroke-dasharray: 5, 12;
+  }
+
+  @keyframes arrow {
+    to {
+      opacity: 1;
+    }
+  }
+
+/* Arrow Animation End*/
+  
