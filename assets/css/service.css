@@ -5,8 +5,8 @@
     align-items: center;
     flex-direction: column;
     padding-top: 180px;
-    height: 350px;
-    background-image: linear-gradient(to bottom right, rgb(12,44,139), yellow);
+    min-height: 90vh;
+    background-image: url(../images/services/services.png);
 }
 
 .background-card{
@@ -30,7 +30,12 @@
   }
   
 .link{
+  align-items: center;
+  justify-content: center;
     color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: -60px;
 }
 /*section one end*/
 
