@@ -1236,6 +1236,117 @@ Initiative Style
   background: rgba(73,100,243,0.6);
 }
 
+/*Model*/
+@media screen and (min-width: 1024px) {
+.modal-dialog {
+  max-width: 800px;
+}
+
+.modal-content{
+  padding: 30px;
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, rgb(12,44,139), rgb(77, 214, 219));
+}
+.modal-title{
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.header-icon{
+  margin-right: 20px;
+  color: white;
+}
+
+.modal-body{
+  padding: 50px;
+  font-size: 18px;
+  color: white;
+}
+
+.close{
+  color: rgb(12,44,139);
+  cursor: pointer;
+}
+
+.fa-2x:hover{
+  color: yellow;
+} 
+  }
+
+@media screen and (max-width: 767px) {
+  /* CSS rules for mobile view */
+  .modal-dialog {
+    max-width: 300px;
+    align-items: center;
+  }
+  
+  .modal-content{
+    padding: 30px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, rgb(12,44,139), rgb(77, 214, 219));
+  }
+  .modal-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .header-icon{
+    margin-right: 20px;
+    color: white;
+  }
+  
+  .modal-body{
+    padding: 50px;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .close{
+    color: rgb(12,44,139);
+    cursor: pointer;
+  }
+  
+  .fa-2x:hover{
+    color: yellow;
+  } 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* CSS rules for tablet view */
+  .modal-dialog {
+    max-width: 500px;
+  }
+  
+  .modal-content{
+    padding: 30px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, rgb(12,44,139), rgb(77, 214, 219));
+  }
+  .modal-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .header-icon{
+    margin-right: 20px;
+    color: white;
+  }
+  
+  .modal-body{
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .close{
+    color: rgb(12,44,139);
+    cursor: pointer;
+  }
+}
+/*Model-End*/
 /* 
 ---------------------------------------------
 About Us Style

@@ -21,6 +21,9 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../assets/css/fontawesome.css">
 
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -129,10 +132,36 @@
       many more startup success stories in the future.</p>
     <diV class="initiativebtn">
       <ul>
-        <li><a href="#">
+        <!--Population-->
+        <li><a data-toggle="modal" data-target="#population">
             <i class="fa-solid fa-people-group"></i>
-            <span>Population</span>
+            <span >Population</span>
           </a></li>
+            <!--Population Model-->
+          <div class="modal fade" id="population" tabindex="-1" role="dialog" aria-labelledby="populationTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="populationTitle"><i class="fa fa-users header-icon" aria-hidden="true"></i>Population</h5>
+                  <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </i>
+                </div>
+                <div class="row">
+                  <div class="col-sm">
+                    <img src="./assets/images/Initiative/population (2).png">
+                  </div>
+                  <div class="col-sm">
+                    <div class="modal-body">
+                      Malta as at 1st January 2020 had 515,000 inhabitants.Fastest 5-year population average population growth in the EU27 (+3.2%)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!--Population Model-End-->
+          <!--Population-End-->
         <li><a href="#">
             <i class="fa-solid fa-people-roof"></i>
             <span>Working Population</span>
@@ -147,6 +176,7 @@
           </a></li>
       </ul>
     </diV>
+    
     <diV class="initiativebtn2">
       <ul>
         <li><a href="#">
@@ -169,7 +199,7 @@
     </diV>
   </section>
   <!-- Initiative Section End -->
-
+  
   <!-- About Section -->
   <section id="about">
     <div id="about" class="our-services section">
@@ -472,6 +502,17 @@
     </div>
   </footer>
   <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
+  <script src="https://kit.fontawesome.com/6fb044213a.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
