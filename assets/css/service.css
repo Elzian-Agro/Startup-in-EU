@@ -1,0 +1,250 @@
+/*section one*/
+.section-one{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 180px;
+    min-height: 90vh;
+    background-image: url(../images/services/services.png);
+}
+
+.background-card{
+    background-color: rgb(197, 212, 255);
+    color: rgb(12,44,139);
+    border-radius: 30px;
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 50px;
+}
+
+.background-card {
+    transition: all 0.3s ease;
+  }
+  
+  .background-card:hover {
+    transform: scale(1.1);
+  }
+  
+.link{
+  align-items: center;
+  justify-content: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: -60px;
+}
+/*section one end*/
+
+/*section two*/
+.section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    padding-top: 300px;
+    padding-bottom: 250px;
+}
+
+.fa-solid{
+    color: #0c2c8b;
+}
+
+.list-text {
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.un-ordered-list{
+    list-style-type: square;
+    color: rgb(53, 53, 53);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.ul-icon{
+    list-style-image: url(../images/Initiative/check-circle.svg);
+    padding: 8px;
+}
+
+.list-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 50px;
+}
+
+.corporation-heading {
+    font-weight: bold;
+    padding-right: 70px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .arrow-svg {
+    width: 250px;
+    height: 107px;
+    overflow: visible;
+    margin-left: 250px;
+  }
+
+  /*Mobile Mode*/
+@media (max-width: 767px) {
+
+  .section-two {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col-sm {
+    margin-bottom: 30px;
+  }
+
+  .list-content {
+    margin-left: 10px;
+  }
+
+  .corporation-heading {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .un-ordered-list {
+    font-size: 16px;
+  }
+
+  .list-text {
+    padding: 10px 0;
+    white-space: normal;
+  }
+
+  .fa-solid {
+    font-size: 16px;
+  }
+
+  .ul-icon {
+    padding: 5px;
+  }
+  .arrow{
+    display: none;
+  }
+  
+}
+ /*Mobile Mode end*/
+
+
+/*Tablet Mode*/
+@media only screen and (max-width: 992px) {
+  .arrow-svg {
+    width: 20%;
+    height: auto;
+    margin-left: 50px;
+  }
+
+  .tab-view{
+    padding-bottom: 200px;
+  }
+
+   .list-text {
+    padding: 10px 0;
+    white-space: normal;
+  }
+
+  .section-two{
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+  .section-three{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+}
+/*Tablet Mode end*/
+
+/*section two end*/
+
+
+/*section three*/
+.section-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/*Mobile mode*/
+@media only screen and (max-width: 768px) {
+  .section-three {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-three li {
+    white-space: normal;
+  }
+
+  .section-two{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .section-three{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+}
+/*Mobile mode end*/
+/*section three end*/
+
+
+/* Arrow Animation*/
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation-iteration-count: 1;
+  }
+  
+  .path.animate {
+    animation: dash 1.5s linear forwards;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .dashed {
+    stroke-dasharray: 5, 12;
+  }
+
+  @keyframes arrow {
+    to {
+      opacity: 1;
+    }
+  }
+
+/* Arrow Animation End*/
+  
