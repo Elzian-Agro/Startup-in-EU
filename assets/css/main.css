@@ -1242,7 +1242,7 @@ Initiative Style
   /*Mobile Veiw*/
   .initiativeSection {
     background-color: #fefefe;
-    min-height: 130vh;
+    min-height: 150vh;
   }
   
   .initiativeSection a {
@@ -1437,7 +1437,7 @@ Initiative Style
   /*Tablet Veiw*/
   .initiativeSection {
     background-color: #fefefe;
-    min-height: 80vh;
+    min-height: 110vh;
   }
   
   .initiativeSection a {
