@@ -2183,6 +2183,104 @@ Portfolio
     background: rgba(55,219,242,1);
   }
 }
+
+/*
+---------------------------------------------
+Sector
+--------------------------------------------- 
+*/
+
+.section-sector{
+  background: linear-gradient(to bottom right, rgb(12,44,139), rgb(77, 214, 219));
+  height: 500px;
+}
+
+.sector-text{
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.sector-paragraph{
+  color: white;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.icon-sector{
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.icon-sector i {
+  padding: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out; /* Add transition property */
+}
+
+.icon-sector i:hover {
+  transform: scale(1.5); /* Add scale transform on hover */
+  color: yellow;
+}
+
+
+/* Slick Slider Styling */
+.slider {
+  width: 100%;
+  margin: 0 auto;
+}
+.slick-slide {
+  margin: 0 10px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(255, 255, 255);
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 600px) {
+  .section-sector{
+    height: 1100px;
+    padding-top: 50px;
+  }
+  
+  .sector-text {
+    padding-top: 50px;
+  }
+  
+  .sector-paragraph {
+    font-size: 0.8rem;
+  }
+  
+  .icon-sector {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+
+  .icon-sector i{
+    padding-top: 50px;
+  }
+}
+
+
+
+/*
+---------------------------------------------
+Sector End
+--------------------------------------------- 
+*/
+
+
 /* 
 ---------------------------------------------
 Blog
