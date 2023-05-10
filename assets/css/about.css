@@ -1,29 +1,36 @@
-.section-one{
-    display: flex; 
+.aboutSection {
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.93)), url(../images/bc2.jpg);
+}
+.section-one {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 180px;
     min-height: 90vh;
-    background-image: url(../images/about/about.jpg);
+    background-image: url(../images/about/about.png);
+    background-size: cover;
 }
 
-.link{
+.link {
     align-items: center;
     justify-content: center;
-      color: white;
-      font-size: 28px;
-      font-weight: 700;
-      margin-top: -60px;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: -60px;
 }
 
 /*Section Two*/
-.section-two{
-    margin-top: 100px;
+.section-two {
+    padding-top: 100px;
     margin-bottom: 100px;
 }
-h2{
+
+h2 {
     padding: 20px;
     font-weight: bold;
 }
+
 /*Section Two End*/

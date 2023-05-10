@@ -1043,218 +1043,21 @@ Initiative Style
 --------------------------------------------- 
 */
 @media screen and (min-width: 1024px) {
-.initiativeSection {
-  background-color: #fefefe;
-  min-height: 100vh;
-}
-
-.initiativeSection a {
-  text-decoration: none;
-}
-
-.initiativeSection h2,
-.initiativePara {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.initiativeSection h2 {
-  color: #2a2a2a;
-  font-weight: 700;
-  letter-spacing: 1.30px;
-  font-size: 30px;
-  line-height: 44px;
-  padding-top: 70px;
-}
-
-.initiativeSection h2 span{
-  color: #4964f3;
-}
-
-.initiativeSection p {
-  color: #2a2a2a;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-.initiativebtn ul {
-  position: absolute;
- margin: 100px 100px 10px 140px;
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  display: flex;
-}
-
-.initiativebtn ul li {
-  list-style: none;
-  margin: 0 25px;
-  display: flex;
-}
-
-.initiativebtn ul li a i {
-  font-size: 35px;
-  color: #2a2a2a;
-  transition: 0.5s;
-  padding-right: 14px;
-}
-
-.initiativebtn ul li a span {
-  color: #2a2a2a;
-  letter-spacing: 2px;
-  font-weight: 700;
-  transition: 0.5s;
-}
-
-.initiativebtn ul li a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  width: 210px;
-  height: 80px;
-  background: rgba(55, 219, 242, 0.5);
-  padding-left: 20px;
-  position: relative;
-  transition: 0.5s;
-}
-.initiativebtn ul li a:before {
-  content: '';
-  position: absolute;
-  top: 5px;
-  left: -10px;
-  height: 100%;
-  width: 10px;
-  background: rgba(55, 219, 242, 0.3);
-  transition: 0.5s;
-  transform: skewY(-45deg);
-}
-.initiativebtn ul li a:after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: -5px;
-  height: 10px;
-  width: 100%;
-  background: rgba(55, 219, 242, 0.3);
-  transition: 0.5s;
-  transform: skewX(-45deg);
-}
-.initiativebtn ul li:hover i {
-  color: #fff;
-} 
-.initiativebtn ul li:hover span {
-  color:#fff;
-} 
-.initiativebtn ul li:hover a {
-  background: rgba(73,100,243,0.9);
-  transform: translate(15px, -15px);
-  box-shadow: -50px 50px 50px rgba(255,255,255,0.5);
-}
-.initiativebtn ul li:hover a::before {
-  background: rgba(73,100,243,0.7);
-}
-.initiativebtn ul li:hover a::after {
-  background: rgba(73,100,243,0.6);
-}
-
-.initiativebtn2 ul {
-  position: absolute;
-  margin: 250px 100px 0 140px;
-  /* top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  display: flex;
-}
-
-.initiativebtn2 ul li {
-  list-style: none;
-  margin: 0 25px;
-  display: flex;
-}
-
-.initiativebtn2 ul li a i {
-  font-size: 35px;
-  color: #2a2a2a;
-  transition: 0.5s;
-  padding-right: 14px;
-}
-
-.initiativebtn2 ul li a span {
-  color: #2a2a2a;
-  letter-spacing: 2px;
-  font-weight: 700;
-  transition: 0.5s;
-}
-
-.initiativebtn2 ul li a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  width: 210px;
-  height: 80px;
-  background: rgba(55, 219, 242, 0.5);
-  padding-left: 20px;
-  position: relative;
-  transition: 0.5s;
-}
-.initiativebtn2 ul li a:before {
-  content: '';
-  position: absolute;
-  top: 5px;
-  left: -10px;
-  height: 100%;
-  width: 10px;
-  background: rgba(55, 219, 242, 0.3);
-  transition: 0.5s;
-  transform: skewY(-45deg);
-}
-.initiativebtn2 ul li a:after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: -5px;
-  height: 10px;
-  width: 100%;
-  background: rgba(55, 219, 242, 0.3);
-  transition: 0.5s;
-  transform: skewX(-45deg);
-}
-.initiativebtn2 ul li:hover i {
-  color: #fff;
-} 
-.initiativebtn2 ul li:hover span {
-  color:#fff;
-} 
-.initiativebtn2 ul li:hover a {
-  background: rgba(73,100,243,0.9);
-  transform: translate(15px, -15px);
-  box-shadow: -50px 50px 50px rgba(255,255,255,0.5);
-}
-.initiativebtn2 ul li:hover a::before {
-  background: rgba(73,100,243,0.7);
-}
-.initiativebtn2 ul li:hover a::after {
-  background: rgba(73,100,243,0.6);
-}
-}
-
-@media screen and (max-width: 767px) {
-  /*Mobile Veiw*/
   .initiativeSection {
     background-color: #fefefe;
-    min-height: 150vh;
+    min-height: 100vh;
   }
-  
+
   .initiativeSection a {
     text-decoration: none;
   }
-  
+
   .initiativeSection h2,
   .initiativePara {
     text-align: center;
     margin-top: 20px;
   }
-  
+
   .initiativeSection h2 {
     color: #2a2a2a;
     font-weight: 700;
@@ -1263,17 +1066,229 @@ Initiative Style
     line-height: 44px;
     padding-top: 70px;
   }
-  
-  .initiativeSection h2 span{
+
+  .initiativeSection h2 span {
     color: #4964f3;
   }
-  
+
   .initiativeSection p {
     color: #2a2a2a;
     font-weight: 400;
     line-height: 30px;
   }
-  
+
+  .initiativebtn ul {
+    position: absolute;
+    margin: 100px 100px 10px 140px;
+    /* top: 50%;
+  left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    display: flex;
+  }
+
+  .initiativebtn ul li {
+    list-style: none;
+    margin: 0 25px;
+    display: flex;
+  }
+
+  .initiativebtn ul li a i {
+    font-size: 35px;
+    color: #2a2a2a;
+    transition: 0.5s;
+    padding-right: 14px;
+  }
+
+  .initiativebtn ul li a span {
+    color: #2a2a2a;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .initiativebtn ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 210px;
+    height: 80px;
+    background: rgba(55, 219, 242, 0.5);
+    padding-left: 20px;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .initiativebtn ul li a:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    height: 100%;
+    width: 10px;
+    background: rgba(55, 219, 242, 0.3);
+    transition: 0.5s;
+    transform: skewY(-45deg);
+  }
+
+  .initiativebtn ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: -5px;
+    height: 10px;
+    width: 100%;
+    background: rgba(55, 219, 242, 0.3);
+    transition: 0.5s;
+    transform: skewX(-45deg);
+  }
+
+  .initiativebtn ul li:hover i {
+    color: #fff;
+  }
+
+  .initiativebtn ul li:hover span {
+    color: #fff;
+  }
+
+  .initiativebtn ul li:hover a {
+    background: rgba(73, 100, 243, 0.9);
+    transform: translate(15px, -15px);
+    box-shadow: -50px 50px 50px rgba(255, 255, 255, 0.5);
+  }
+
+  .initiativebtn ul li:hover a::before {
+    background: rgba(73, 100, 243, 0.7);
+  }
+
+  .initiativebtn ul li:hover a::after {
+    background: rgba(73, 100, 243, 0.6);
+  }
+
+  .initiativebtn2 ul {
+    position: absolute;
+    margin: 250px 100px 0 140px;
+    /* top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+    display: flex;
+  }
+
+  .initiativebtn2 ul li {
+    list-style: none;
+    margin: 0 25px;
+    display: flex;
+  }
+
+  .initiativebtn2 ul li a i {
+    font-size: 35px;
+    color: #2a2a2a;
+    transition: 0.5s;
+    padding-right: 14px;
+  }
+
+  .initiativebtn2 ul li a span {
+    color: #2a2a2a;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .initiativebtn2 ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 210px;
+    height: 80px;
+    background: rgba(55, 219, 242, 0.5);
+    padding-left: 20px;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .initiativebtn2 ul li a:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    height: 100%;
+    width: 10px;
+    background: rgba(55, 219, 242, 0.3);
+    transition: 0.5s;
+    transform: skewY(-45deg);
+  }
+
+  .initiativebtn2 ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: -5px;
+    height: 10px;
+    width: 100%;
+    background: rgba(55, 219, 242, 0.3);
+    transition: 0.5s;
+    transform: skewX(-45deg);
+  }
+
+  .initiativebtn2 ul li:hover i {
+    color: #fff;
+  }
+
+  .initiativebtn2 ul li:hover span {
+    color: #fff;
+  }
+
+  .initiativebtn2 ul li:hover a {
+    background: rgba(73, 100, 243, 0.9);
+    transform: translate(15px, -15px);
+    box-shadow: -50px 50px 50px rgba(255, 255, 255, 0.5);
+  }
+
+  .initiativebtn2 ul li:hover a::before {
+    background: rgba(73, 100, 243, 0.7);
+  }
+
+  .initiativebtn2 ul li:hover a::after {
+    background: rgba(73, 100, 243, 0.6);
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  /*Mobile Veiw*/
+  .initiativeSection {
+    background-color: #fefefe;
+    min-height: 150vh;
+  }
+
+  .initiativeSection a {
+    text-decoration: none;
+  }
+
+  .initiativeSection h2,
+  .initiativePara {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .initiativeSection h2 {
+    color: #2a2a2a;
+    font-weight: 700;
+    letter-spacing: 1.30px;
+    font-size: 30px;
+    line-height: 44px;
+    padding-top: 70px;
+  }
+
+  .initiativeSection h2 span {
+    color: #4964f3;
+  }
+
+  .initiativeSection p {
+    color: #2a2a2a;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
 
 
   /*section*/
@@ -1282,26 +1297,26 @@ Initiative Style
     margin-left: 100px;
     margin-right: 100px;
   }
-  
+
   .initiativebtn ul li {
     margin: 25px 0px;
     display: flex;
   }
-  
+
   .initiativebtn ul li a i {
     font-size: 35px;
     color: #2a2a2a;
     transition: 0.5s;
     padding-right: 14px;
   }
-  
+
   .initiativebtn ul li a span {
     color: #2a2a2a;
     letter-spacing: 2px;
     font-weight: 700;
     transition: 0.5s;
   }
-  
+
   .initiativebtn ul li a {
     display: flex;
     align-items: center;
@@ -1313,6 +1328,7 @@ Initiative Style
     position: relative;
     transition: 0.5s;
   }
+
   .initiativebtn ul li a:before {
     content: '';
     position: absolute;
@@ -1324,6 +1340,7 @@ Initiative Style
     transition: 0.5s;
     transform: skewY(-45deg);
   }
+
   .initiativebtn ul li a:after {
     content: '';
     position: absolute;
@@ -1335,52 +1352,57 @@ Initiative Style
     transition: 0.5s;
     transform: skewX(-45deg);
   }
+
   .initiativebtn ul li:hover i {
     color: #fff;
-  } 
+  }
+
   .initiativebtn ul li:hover span {
-    color:#fff;
-  } 
+    color: #fff;
+  }
+
   .initiativebtn ul li:hover a {
-    background: rgba(73,100,243,0.9);
+    background: rgba(73, 100, 243, 0.9);
     transform: translate(15px, -15px);
-    box-shadow: -50px 50px 50px rgba(255,255,255,0.5);
+    box-shadow: -50px 50px 50px rgba(255, 255, 255, 0.5);
   }
+
   .initiativebtn ul li:hover a::before {
-    background: rgba(73,100,243,0.7);
+    background: rgba(73, 100, 243, 0.7);
   }
+
   .initiativebtn ul li:hover a::after {
-    background: rgba(73,100,243,0.6);
+    background: rgba(73, 100, 243, 0.6);
   }
-  
+
   /*second row*/
-  
+
   .initiativebtn2 ul {
     position: absolute;
     margin-left: 100px;
     margin-right: 100px;
     padding-top: 420px;
   }
-  
+
   .initiativebtn2 ul li {
     margin: 25px 0px;
     display: flex;
   }
-  
+
   .initiativebtn2 ul li a i {
     font-size: 35px;
     color: #2a2a2a;
     transition: 0.5s;
     padding-right: 14px;
   }
-  
+
   .initiativebtn2 ul li a span {
     color: #2a2a2a;
     letter-spacing: 2px;
     font-weight: 700;
     transition: 0.5s;
   }
-  
+
   .initiativebtn2 ul li a {
     display: flex;
     align-items: center;
@@ -1392,6 +1414,7 @@ Initiative Style
     position: relative;
     transition: 0.5s;
   }
+
   .initiativebtn2 ul li a:before {
     content: '';
     position: absolute;
@@ -1403,6 +1426,7 @@ Initiative Style
     transition: 0.5s;
     transform: skewY(-45deg);
   }
+
   .initiativebtn2 ul li a:after {
     content: '';
     position: absolute;
@@ -1414,42 +1438,48 @@ Initiative Style
     transition: 0.5s;
     transform: skewX(-45deg);
   }
+
   .initiativebtn2 ul li:hover i {
     color: #fff;
-  } 
+  }
+
   .initiativebtn2 ul li:hover span {
-    color:#fff;
-  } 
+    color: #fff;
+  }
+
   .initiativebtn2 ul li:hover a {
-    background: rgba(73,100,243,0.9);
+    background: rgba(73, 100, 243, 0.9);
     transform: translate(15px, -15px);
-    box-shadow: -50px 50px 50px rgba(255,255,255,0.5);
+    box-shadow: -50px 50px 50px rgba(255, 255, 255, 0.5);
   }
+
   .initiativebtn2 ul li:hover a::before {
-    background: rgba(73,100,243,0.7);
+    background: rgba(73, 100, 243, 0.7);
   }
+
   .initiativebtn2 ul li:hover a::after {
-    background: rgba(73,100,243,0.6);
+    background: rgba(73, 100, 243, 0.6);
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   /*Tablet Veiw*/
   .initiativeSection {
     background-color: #fefefe;
     min-height: 110vh;
   }
-  
+
   .initiativeSection a {
     text-decoration: none;
   }
-  
+
   .initiativeSection h2,
   .initiativePara {
     text-align: center;
     margin-top: 20px;
   }
-  
+
   .initiativeSection h2 {
     color: #2a2a2a;
     font-weight: 700;
@@ -1458,48 +1488,48 @@ Initiative Style
     line-height: 44px;
     padding-top: 70px;
   }
-  
-  .initiativeSection h2 span{
+
+  .initiativeSection h2 span {
     color: #4964f3;
   }
-  
+
   .initiativeSection p {
     color: #2a2a2a;
     font-weight: 400;
     line-height: 30px;
   }
-  
+
   /*First Row*/
-  .initiativebtn ul{
+  .initiativebtn ul {
     position: absolute;
     padding-top: 50px;
     margin: 0px 100px 0 50px;
     display: flex;
     flex-wrap: wrap;
     padding-left: 90px;
-  
+
   }
-  
+
   .initiativebtn li {
     list-style: none;
     margin: 25px 25px;
     display: flex;
   }
-  
+
   .initiativebtn ul li a i {
     font-size: 35px;
     color: #2a2a2a;
     transition: 0.5s;
     padding-right: 14px;
   }
-  
+
   .initiativebtn ul li a span {
     color: #2a2a2a;
     letter-spacing: 2px;
     font-weight: 700;
     transition: 0.5s;
   }
-  
+
   .initiativebtn ul li a {
     display: flex;
     align-items: center;
@@ -1511,6 +1541,7 @@ Initiative Style
     position: relative;
     transition: 0.5s;
   }
+
   .initiativebtn ul li a:before {
     content: '';
     position: absolute;
@@ -1522,6 +1553,7 @@ Initiative Style
     transition: 0.5s;
     transform: skewY(-45deg);
   }
+
   .initiativebtn ul li a:after {
     content: '';
     position: absolute;
@@ -1533,26 +1565,31 @@ Initiative Style
     transition: 0.5s;
     transform: skewX(-45deg);
   }
+
   .initiativebtn ul li:hover i {
     color: #fff;
-  } 
+  }
+
   .initiativebtn ul li:hover span {
-    color:#fff;
-  } 
+    color: #fff;
+  }
+
   .initiativebtn ul li:hover a {
-    background: rgba(73,100,243,0.9);
+    background: rgba(73, 100, 243, 0.9);
     transform: translate(15px, -15px);
-    box-shadow: -50px 50px 50px rgba(255,255,255,0.5);
+    box-shadow: -50px 50px 50px rgba(255, 255, 255, 0.5);
   }
+
   .initiativebtn ul li:hover a::before {
-    background: rgba(73,100,243,0.7);
+    background: rgba(73, 100, 243, 0.7);
   }
+
   .initiativebtn ul li:hover a::after {
-    background: rgba(73,100,243,0.6);
+    background: rgba(73, 100, 243, 0.6);
   }
 
   /*Second Row*/
-  
+
   .initiativebtn2 ul {
     position: absolute;
     margin: 320px 100px 0 50px;
@@ -1560,28 +1597,28 @@ Initiative Style
     flex-wrap: wrap;
     padding-left: 90px;
   }
-  
+
   .initiativebtn2 li {
     list-style: none;
     margin: 25px 25px;
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .initiativebtn2 ul li a i {
     font-size: 35px;
     color: #2a2a2a;
     transition: 0.5s;
     padding-right: 14px;
   }
-  
+
   .initiativebtn2 ul li a span {
     color: #2a2a2a;
     letter-spacing: 2px;
     font-weight: 700;
     transition: 0.5s;
   }
-  
+
   .initiativebtn2 ul li a {
     display: flex;
     align-items: center;
@@ -1593,6 +1630,7 @@ Initiative Style
     position: relative;
     transition: 0.5s;
   }
+
   .initiativebtn2 ul li a:before {
     content: '';
     position: absolute;
@@ -1604,6 +1642,7 @@ Initiative Style
     transition: 0.5s;
     transform: skewY(-45deg);
   }
+
   .initiativebtn2 ul li a:after {
     content: '';
     position: absolute;
@@ -1615,22 +1654,27 @@ Initiative Style
     transition: 0.5s;
     transform: skewX(-45deg);
   }
+
   .initiativebtn2 ul li:hover i {
     color: #fff;
-  } 
+  }
+
   .initiativebtn2 ul li:hover span {
-    color:#fff;
-  } 
+    color: #fff;
+  }
+
   .initiativebtn2 ul li:hover a {
-    background: rgba(73,100,243,0.9);
+    background: rgba(73, 100, 243, 0.9);
     transform: translate(15px, -15px);
-    box-shadow: -50px 50px 50px rgba(255,255,255,0.5);
+    box-shadow: -50px 50px 50px rgba(255, 255, 255, 0.5);
   }
+
   .initiativebtn2 ul li:hover a::before {
-    background: rgba(73,100,243,0.7);
+    background: rgba(73, 100, 243, 0.7);
   }
+
   .initiativebtn2 ul li:hover a::after {
-    background: rgba(73,100,243,0.6);
+    background: rgba(73, 100, 243, 0.6);
   }
 }
 
@@ -1638,42 +1682,46 @@ Initiative Style
 /*Model For Initiative*/
 /*------------------------------------------------*/
 @media screen and (min-width: 1024px) {
+
   /* CSS rules for Desktop view */
-.modal-dialog {
-  max-width: 800px;
-}
-
-.modal-content{
-  padding: 30px;
-  border-radius: 30px;
-  background: linear-gradient(to bottom right, rgb(12,44,139), rgb(77, 214, 219));
-}
-.modal-title{
-  font-size: 28px;
-  font-weight: bold;
-  color: white;
-}
-
-.header-icon{
-  margin-right: 20px;
-  color: white;
-}
-
-.modal-body p, h4{
-  color: white;
-}
-
-.close{
-  color: rgb(12,44,139);
-  cursor: pointer;
-}
-
-.fa-2x:hover{
-  color: yellow;
-}
+  .modal-dialog {
+    max-width: 800px;
   }
 
+  .modal-content {
+    padding: 30px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, rgb(12, 44, 139), rgb(77, 214, 219));
+  }
+
+  .modal-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .header-icon {
+    margin-right: 20px;
+    color: white;
+  }
+
+  .modal-body p,
+  h4 {
+    color: white;
+  }
+
+  .close {
+    color: rgb(12, 44, 139);
+    cursor: pointer;
+  }
+
+  .fa-2x:hover {
+    color: yellow;
+  }
+}
+
 @media screen and (max-width: 767px) {
+
   /* CSS rules for mobile view */
   .modal-dialog {
     max-width: 350px;
@@ -1681,65 +1729,71 @@ Initiative Style
     margin-left: 30px;
     margin-right: 30px;
   }
-  
-  .modal-content{
+
+  .modal-content {
     padding: 30px;
     border-radius: 30px;
-    background: linear-gradient(to bottom right, rgb(12,44,139), rgb(77, 214, 219));
+    background: linear-gradient(to bottom right, rgb(12, 44, 139), rgb(77, 214, 219));
   }
-  .modal-title{
+
+  .modal-title {
     font-size: 16px;
     font-weight: bold;
     color: white;
   }
-  
-  .header-icon{
+
+  .header-icon {
     margin-right: 20px;
     color: white;
   }
-  
-  .modal-body p, h4{
+
+  .modal-body p,
+  h4 {
     color: white;
   }
-  
-  
-  .close{
-    color: rgb(12,44,139);
+
+
+  .close {
+    color: rgb(12, 44, 139);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
   /* CSS rules for tablet view */
   .modal-dialog {
     max-width: 500px;
   }
-  
-  .modal-content{
+
+  .modal-content {
     padding: 30px;
     border-radius: 30px;
-    background: linear-gradient(to bottom right, rgb(12,44,139), rgb(77, 214, 219));
+    background: linear-gradient(to bottom right, rgb(12, 44, 139), rgb(77, 214, 219));
   }
-  .modal-title{
+
+  .modal-title {
     font-size: 28px;
     font-weight: bold;
     color: white;
   }
-  
-  .header-icon{
+
+  .header-icon {
     margin-right: 20px;
     color: white;
   }
-  
-  .modal-body p, h4{
+
+  .modal-body p,
+  h4 {
     color: white;
   }
-  
-  
-  .close{
-    color: rgb(12,44,139);
+
+
+  .close {
+    color: rgb(12, 44, 139);
     cursor: pointer;
   }
 }
+
 /*------------------------------------------------*/
 /*Model For Initiative End*/
 /*------------------------------------------------*/
@@ -1887,134 +1941,39 @@ Portfolio
 --------------------------------------------- 
 */
 @media screen and (min-width: 992px) {
-/* Styles for desktop devices */
-#serviceSection{
-  margin-top: 100px;
-  background: #fafafa;
-}
-#serviceSection h2 {
-  padding-top: 50px;
-}
-#services{
-  margin-top: -50px;
-  justify-content:center;
-  align-items:center;
-  display:flex;
-  min-height:90vh;
-}
-.card{
-  position:relative;
-  width:200px;
-  height: 250px;
-  border-radius:0px 10px 10px 0px;
-  background:#f4f4f4;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  perspective: 100em;
-  margin:25px;
-  box-shadow:30px 40px 40px rgba(0,0,0,0.2);
-}
-.card h1 {
-  font-size: 16px;
-  color: #2a2a2a;
-  font-weight: 600;
-  padding-bottom: 7px;
-}
-.cover{
-  position:absolute;
-  top:0px;
-  left:0px;
-  width:100%;
-  height:100%;
-  background: #37dbf2;
-  transform-style: preserve-3d;
-  transform-origin: left;
-  transition:transform 1s;
-  border-radius:0px 10px 10px 0px;
-  font-size:30px;
-  font-weight: bold;
-}
-.card:hover .cover{
-  transform:rotateY(-120deg);
-}
-.coverFront, .coverBack{
-  position:absolute;
-  width:100%;
-  height:100%;
-  justify-content: center;
-  align-items:center;
-  display: flex;
-}
-.coverFront{
-  background: #f8f8ff;
-  text-align: center;
-  border-radius: 0px 10px 10px 0px ;
-  color:#333;
-}
-.coverFront h5{
-  font-size: 16px;
-  color: #2a2a2a;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-.coverBack{
-  background: #ddd;
-  border-radius: 10px 0px 0px 10px;
-  transform:rotateY(180deg);
-  backface-visibility: hidden;
-}
-.sh_img{
-  margin-top: 10px;
-  width:100px;
-}
-.sh_btn{
-  border:0px;
-  background: rgba(55,219,242,0.7);
-  border-radius: 20px;
-  padding:10px 20px;
-  color:#fff;
-  margin-top:10px;
-}
-.sh_btn:hover{
-  background: rgba(55,219,242,1);
-}
-}
 
-@media screen and (max-width: 767px) {
-  /* Styles for mobile devices */
-  #serviceSection{
+  /* Styles for desktop devices */
+  #serviceSection {
     margin-top: 100px;
     background: #fafafa;
   }
+
   #serviceSection h2 {
     padding-top: 50px;
   }
-  #services{
-    margin-top: 25px;
-    justify-content:center;
-    align-items:center;
-    display:flex;
-    flex-wrap: wrap;
-    min-height:90vh;
+
+  #services {
+    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 90vh;
   }
-  .card{
-    position:relative;
-    width:40%;
+
+  .card {
+    position: relative;
+    width: 200px;
     height: 250px;
-    border-radius:0px 10px 10px 0px;
-    background:#f4f4f4;
+    border-radius: 0px 10px 10px 0px;
+    background: #f4f4f4;
     justify-content: center;
     align-items: center;
     display: flex;
     perspective: 100em;
-    margin: 10px 2.5%;
-    box-shadow:30px 40px 40px rgba(0,0,0,0.2);
+    margin: 25px;
+    box-shadow: 30px 40px 40px rgba(0, 0, 0, 0.2);
   }
 
-  .card p{
-    font-size: 12px;
-  }
   .card h1 {
     font-size: 16px;
     color: #2a2a2a;
@@ -2022,101 +1981,230 @@ Portfolio
     padding-bottom: 7px;
   }
 
-  .cover{
-    position:absolute;
-    top:0px;
-    left:0px;
-    width:100%;
-    height:100%;
+  .cover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
     background: #37dbf2;
     transform-style: preserve-3d;
     transform-origin: left;
-    transition:transform 1s;
-    border-radius:0px 10px 10px 0px;
-    font-size:30px;
+    transition: transform 1s;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 30px;
     font-weight: bold;
   }
-  .card.clicked .cover{
-    transform:rotateY(-120deg);
+
+  .card:hover .cover {
+    transform: rotateY(-120deg);
   }
-  .coverFront, .coverBack{
-    position:absolute;
-    width:100%;
-    height:100%;
+
+  .coverFront,
+  .coverBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     display: flex;
   }
-  .coverFront{
+
+  .coverFront {
     background: #f8f8ff;
     text-align: center;
-    border-radius: 0px 10px 10px 0px ;
-    color:#333;
+    border-radius: 0px 10px 10px 0px;
+    color: #333;
   }
-  .coverFront h5{
+
+  .coverFront h5 {
     font-size: 16px;
     color: #2a2a2a;
     font-weight: 700;
     margin-bottom: 12px;
   }
-  .coverBack{
+
+  .coverBack {
     background: #ddd;
     border-radius: 10px 0px 0px 10px;
-    transform:rotateY(180deg);
+    transform: rotateY(180deg);
     backface-visibility: hidden;
   }
-  .sh_img{
+
+  .sh_img {
     margin-top: 10px;
-    width:100px;
+    width: 100px;
   }
-  .sh_btn{
-    border:0px;
-    background: rgba(55,219,242,0.7);
+
+  .sh_btn {
+    border: 0px;
+    background: rgba(55, 219, 242, 0.7);
     border-radius: 20px;
-    padding:10px 20px;
-    color:#fff;
-    margin-top:10px;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 10px;
   }
-  .sh_btn:hover{
-    background: rgba(55,219,242,1);
+
+  .sh_btn:hover {
+    background: rgba(55, 219, 242, 1);
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  /* Styles for mobile devices */
+  #serviceSection {
+    margin-top: 100px;
+    background: #fafafa;
+  }
+
+  #serviceSection h2 {
+    padding-top: 50px;
+  }
+
+  #services {
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 90vh;
+  }
+
+  .card {
+    position: relative;
+    width: 40%;
+    height: 250px;
+    border-radius: 0px 10px 10px 0px;
+    background: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    perspective: 100em;
+    margin: 10px 2.5%;
+    box-shadow: 30px 40px 40px rgba(0, 0, 0, 0.2);
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .card h1 {
+    font-size: 16px;
+    color: #2a2a2a;
+    font-weight: 600;
+    padding-bottom: 7px;
+  }
+
+  .cover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #37dbf2;
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: transform 1s;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .card.clicked .cover {
+    transform: rotateY(-120deg);
+  }
+
+  .coverFront,
+  .coverBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .coverFront {
+    background: #f8f8ff;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+    color: #333;
+  }
+
+  .coverFront h5 {
+    font-size: 16px;
+    color: #2a2a2a;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .coverBack {
+    background: #ddd;
+    border-radius: 10px 0px 0px 10px;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+  }
+
+  .sh_img {
+    margin-top: 10px;
+    width: 100px;
+  }
+
+  .sh_btn {
+    border: 0px;
+    background: rgba(55, 219, 242, 0.7);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .sh_btn:hover {
+    background: rgba(55, 219, 242, 1);
   }
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+
   /* Styles for tablet devices */
-  #serviceSection{
+  #serviceSection {
     margin-top: 100px;
     background: #fafafa;
   }
+
   #serviceSection h2 {
     padding-top: 50px;
   }
-  #services{
+
+  #services {
     margin-top: 25px;
-    justify-content:center;
-    align-items:center;
-    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     flex-wrap: wrap;
-    min-height:90vh;
+    min-height: 90vh;
   }
-  .card{
-    position:relative;
-    width:40%;
+
+  .card {
+    position: relative;
+    width: 40%;
     height: 250px;
-    border-radius:0px 10px 10px 0px;
-    background:#f4f4f4;
+    border-radius: 0px 10px 10px 0px;
+    background: #f4f4f4;
     justify-content: center;
     align-items: center;
     display: flex;
     perspective: 100em;
     margin: 10px 2.5%;
-    box-shadow:30px 40px 40px rgba(0,0,0,0.2);
+    box-shadow: 30px 40px 40px rgba(0, 0, 0, 0.2);
   }
 
-  .card p{
+  .card p {
     font-size: 12px;
   }
+
   .card h1 {
     font-size: 16px;
     color: #2a2a2a;
@@ -2124,65 +2212,75 @@ Portfolio
     padding-bottom: 7px;
   }
 
-  .cover{
-    position:absolute;
-    top:0px;
-    left:0px;
-    width:100%;
-    height:100%;
+  .cover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
     background: #37dbf2;
     transform-style: preserve-3d;
     transform-origin: left;
-    transition:transform 1s;
-    border-radius:0px 10px 10px 0px;
-    font-size:30px;
+    transition: transform 1s;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 30px;
     font-weight: bold;
   }
-  .card.clicked .cover{
-    transform:rotateY(-120deg);
+
+  .card.clicked .cover {
+    transform: rotateY(-120deg);
   }
-  .coverFront, .coverBack{
-    position:absolute;
-    width:100%;
-    height:100%;
+
+  .coverFront,
+  .coverBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     display: flex;
   }
-  .coverFront{
+
+  .coverFront {
     background: #f8f8ff;
     text-align: center;
-    border-radius: 0px 10px 10px 0px ;
-    color:#333;
+    border-radius: 0px 10px 10px 0px;
+    color: #333;
   }
-  .coverFront h5{
+
+  .coverFront h5 {
     font-size: 16px;
     color: #2a2a2a;
     font-weight: 700;
     margin-bottom: 12px;
   }
-  .coverBack{
+
+  .coverBack {
     background: #ddd;
     border-radius: 10px 0px 0px 10px;
-    transform:rotateY(180deg);
+    transform: rotateY(180deg);
     backface-visibility: hidden;
   }
-  .sh_img{
+
+  .sh_img {
     margin-top: 10px;
-    width:100px;
+    width: 100px;
   }
-  .sh_btn{
-    border:0px;
-    background: rgba(55,219,242,0.7);
+
+  .sh_btn {
+    border: 0px;
+    background: rgba(55, 219, 242, 0.7);
     border-radius: 20px;
-    padding:10px 20px;
-    color:#fff;
-    margin-top:10px;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 10px;
   }
-  .sh_btn:hover{
-    background: rgba(55,219,242,1);
+
+  .sh_btn:hover {
+    background: rgba(55, 219, 242, 1);
   }
 }
+
 /* 
 ---------------------------------------------
 Blog
@@ -2337,7 +2435,7 @@ contact
 
 .phone-info {
   margin-top: 30px;
-  
+
 }
 
 .phone-info h4 {
@@ -2361,7 +2459,7 @@ contact
   cursor: pointer;
 }
 
-.phone-info h4 span i:hover{
+.phone-info h4 span i:hover {
   scale: 1.2;
   transition-duration: .5s;
   color: gray;
@@ -2378,11 +2476,12 @@ contact
   cursor: pointer;
 }
 
-.social-media-icon h4 span i:hover{
+.social-media-icon h4 span i:hover {
   scale: 1.2;
   transition-duration: .5s;
   color: gray;
 }
+
 .social-media-icon h4 {
   font-size: 20px;
   font-weight: 700;
@@ -2409,7 +2508,7 @@ contact
   font-weight: 400;
 }
 
-.contact-media-icon{
+.contact-media-icon {
   display: flex;
   margin-top: 20px;
 }
@@ -2641,8 +2740,8 @@ responsive
     text-align: center;
   }
 
-  .contact-media-icon{
-   
+  .contact-media-icon {
+
     justify-content: center;
     margin-bottom: 10px;
   }
