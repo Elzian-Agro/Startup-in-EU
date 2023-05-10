@@ -2189,16 +2189,15 @@ Portfolio
 Sector
 --------------------------------------------- 
 */
-
 .section-sector{
   background: linear-gradient(to bottom right, rgb(12,44,139), rgb(77, 214, 219));
-  height: 500px;
+  height: 600px;
 }
 
 .sector-text{
   color: white;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .sector-paragraph{
@@ -2221,11 +2220,11 @@ Sector
   transition: all 0.3s ease-in-out; /* Add transition property */
 }
 
-.icon-sector i:hover {
-  transform: scale(1.5); /* Add scale transform on hover */
+.icon-sector i:hover,
+.icon-sector:hover h6{
+  transform: scale(1.2); /* Add scale transform on hover */
   color: yellow;
 }
-
 
 /* Slick Slider Styling */
 .slider {
@@ -2249,7 +2248,7 @@ Sector
 /* Styles for mobile devices */
 @media only screen and (max-width: 600px) {
   .section-sector{
-    height: 1100px;
+    height: 600px;
     padding-top: 50px;
   }
   
@@ -2261,18 +2260,15 @@ Sector
     font-size: 0.8rem;
   }
   
-  .icon-sector {
-    flex-wrap: wrap;
-    display: flex;
+  .icon-sector h6 {
+    font-size: 12px;
+    text-align: center;
   }
-
 
   .icon-sector i{
     padding-top: 50px;
   }
 }
-
-
 
 /*
 ---------------------------------------------
