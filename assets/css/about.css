@@ -1,29 +1,81 @@
-.section-one{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 180px;
-    min-height: 90vh;
-    background-image: url(../images/about/about.jpg);
+/* Section One */
+.section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  min-height: 85vh;
+  background-image: url("../images/about/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-.link{
-    align-items: center;
-    justify-content: center;
-      color: white;
-      font-size: 28px;
-      font-weight: 700;
-      margin-top: -60px;
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: -60px;
 }
 
-/*Section Two*/
-.section-two{
-    margin-top: 100px;
-    margin-bottom: 100px;
+/* Section Two */
+.section-two {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-h2{
-    padding: 20px;
-    font-weight: bold;
+
+h2 {
+  padding: 20px;
+  font-weight: bold;
 }
-/*Section Two End*/
+
+@media only screen and (max-width: 767px) {
+  /* Section One */
+  .section-one {
+    padding-top: 60px;
+    min-height: 60vh;
+  }
+
+  .link {
+    font-size: 20px;
+    margin-top: -40px;
+  }
+
+  /* Section Two */
+  .section-two {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Section One */
+  .section-one {
+    padding-top: 120px;
+  }
+
+  .link {
+    font-size: 24px;
+    margin-top: -50px;
+  }
+
+  /* Section Two */
+  .section-two {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  h2 {
+    font-size: 28px;
+    padding: 15px;
+  }
+}
