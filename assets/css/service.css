@@ -1,12 +1,11 @@
 /*section one*/
 .section-one{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 180px;
-    min-height: 90vh;
-    background-image: url(../images/services/services.png);
+  display: flex; 
+  flex-direction: column;
+  padding-top: 180px;
+  min-height: 90vh;
+  background-image: url(../images/services/services.png);
+  background-repeat: no-repeat;
 }
 
 .background-card{
@@ -30,12 +29,15 @@
   }
   
 .link{
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.link, .section-one {
   align-items: center;
   justify-content: center;
-    color: white;
-    font-size: 28px;
-    font-weight: 700;
-    margin-top: -60px;
+  margin-top: -60px;
 }
 /*section one end*/
 
@@ -151,6 +153,7 @@
 
 /*Tablet Mode*/
 @media only screen and (max-width: 992px) {
+
   .arrow-svg {
     width: 20%;
     height: auto;
