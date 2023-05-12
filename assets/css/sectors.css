@@ -13,8 +13,8 @@
 
 .sectors-page-hero-container{
     width: 100%;
-    height: 300px;
-    background-image: linear-gradient(rgb(163, 15, 231,.4), rgba(163, 15, 231, 0.4)),url(../images/sectors/Ethereum-1.jpg);
+    min-height: 80vh;
+    background-image: url(../images/sectors/sector-banner.png);
     background-size: cover;
     background-position: center;
 }
@@ -30,7 +30,7 @@
     letter-spacing: 2px;
     font-size: 32px;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 250px;
 }
 
 /* Hero section end */
@@ -40,8 +40,7 @@
 
 .sectors-page-content-container{
     width: 100%;
-    
-    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.93)), url(../images/bc2.jpg);
     background-position: center;
     padding: 0 30px;
 }
