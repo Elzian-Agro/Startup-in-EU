@@ -2,6 +2,15 @@
   width: 100%;
   background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.95)), url(../images/bc2.jpg);
 }
+/*section one*/
+.section-one{
+  display: flex; 
+  flex-direction: column;
+  padding-top: 180px;
+  min-height: 90vh;
+  background-image: url(../images/services/services.png);
+  background-repeat: no-repeat;
+}
 
 /*section one*/
 .section-one {
@@ -41,6 +50,22 @@
   color: white;
   font-size: 28px;
   font-weight: 700;
+    transition: all 0.3s ease;
+  }
+  
+  .background-card:hover {
+    transform: scale(1.1);
+  }
+  
+.link{
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.link, .section-one {
+  align-items: center;
+  justify-content: center;
   margin-top: -60px;
 }
 
@@ -160,6 +185,7 @@
 
 /*Tablet Mode*/
 @media only screen and (max-width: 992px) {
+
   .arrow-svg {
     width: 20%;
     height: auto;
