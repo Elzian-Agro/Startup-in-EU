@@ -9,7 +9,7 @@
     flex-direction: column;
     padding-top: 180px;
     min-height: 90vh;
-    background-image: url(../images/about/about.png);
+    background-image: url(../images/about/about-banner.png);
     background-size: cover;
 }
 
@@ -41,12 +41,12 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 80px;
-  min-height: 85vh;
-  background-image: url("../images/about/about.jpg");
+  padding-top: 180px;
+  min-height: 90vh;
+  background-image: url("../images/about/about-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 
 .link {
@@ -61,13 +61,13 @@ h2 {
 
 /* Section Two */
 .section-two {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 h2 {
-  padding: 20px;
-  font-weight: bold;
+  padding-bottom: 60px;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 767px) {
