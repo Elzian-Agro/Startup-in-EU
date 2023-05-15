@@ -2588,6 +2588,149 @@ stakeholders end
 --------------------------------------------- 
 */
 
+/*------------------------------------------------*/
+/* Partners Section */
+/*------------------------------------------------*/
+
+.teamimg-wrapper img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.team-container {
+  padding: 20px 100px 50px 100px;
+  text-align: center;
+  background: #fff;
+}
+
+.teamText-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.teamHeading {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+
+/* .teamText-wrapper {
+  width: 90px;
+}
+
+.teamText {
+  width: 75%;
+  color: #999;
+  margin-bottom: 40px;
+} */
+
+.teamimg-wrapper {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  transition: all .5s;
+}
+
+.teamimg-wrapper:hover {
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.15);
+}
+
+.teamimg-wrapper img{
+  transition: all .5s;
+}
+
+/* .teamimg-wrapper:hover {
+  transform: translate(-10px, -10px);
+} */
+
+.icon-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0,33,148,0.7) 0%, rgba(55,219,242,0.7) 100%);
+  opacity: 0;
+  transition: all .5s;
+}
+
+.teamimg-wrapper:hover .icon-wrapper {
+  opacity: 1;
+}
+
+.icons {
+  display: flex;
+  list-style: none;
+}
+
+.icon {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  font-size: 25px;
+  background: rgba(0,33,148,1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon a{
+  text-decoration: none;
+  color: #fff;
+}
+.icon:hover i {
+  color: rgba(0,33,148,1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  font-size: 25px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.team-infos .name{
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.team-infos .job {
+  display: inline-block;
+  font-size: 14px;
+  color: #2a2a2a;
+  font-style: italic;
+  line-height: 2;
+}
+
+@media (max-width: 768px) {
+  .teamMember {
+      margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .team-container {
+    padding: 20px 25px 25px 50px;  
+  }
+}
+
 /* 
 ---------------------------------------------
 contact
