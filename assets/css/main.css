@@ -445,12 +445,13 @@ header
 
 .header-area .main-nav .nav li a {
   color: #414141;
+  font-weight: 600;
 }
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color: #002194 !important;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -2563,6 +2564,8 @@ stakeholders
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .stakeholder-slide img {
     height: auto;
+    width: 280px;
+    padding: 0 80px;
   }
 
 
@@ -2571,6 +2574,9 @@ stakeholders
 @media (max-width: 600px) {
   .stakeholder-slide img {
     height: auto;
+    width: 180px;
+    padding-left: 80px;
+    
   }
 
 
@@ -2769,6 +2775,31 @@ contact
 
 .form#contact button:hover {
   background-image: linear-gradient(to left, #002194 0%, #37dbf2 100%);
+}
+
+@media (max-width: 600px){
+  .form#contact{
+    margin-top: 40px;
+  }
+  .form#contact .contact-dec img {
+    visibility: hidden;
+  }
+  .form#contact input {
+    height: 36px;
+    border-radius: 25px;
+    font-size: 12px;
+  }
+  .form#contact textarea {
+    
+    font-size: 12px;
+   
+  }
+  .social-media-icon h4 span i {
+    width: 39px;
+    height: 39px;
+    line-height: 39px;
+   
+  }
 }
 
 
