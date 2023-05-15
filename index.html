@@ -13,6 +13,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 
   <title>Startup In EU</title>
 
@@ -22,7 +27,7 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="../../assets/css/fontawesome.css">
 
   <!-- Additional CSS Files -->
@@ -44,6 +49,11 @@
   <!-- google recaptcha -->
   <script src="https://www.google.com/recaptcha/api.js" async defer>
   </script>
+
+  <!-- slider -->
+  <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script> -->
+
 </head>
 
 <body>
@@ -78,7 +88,7 @@
               <li class="scroll-to-section"><a href="#about">About Us</a></li>
               <li class="scroll-to-section"><a href="#blog">Why StartupInEU</a></li>
               <li class="scroll-to-section"><a href="#serviceSection">Services</a></li>
-              <li class="scroll-to-section"><a href="#">Sectors</a></li>
+              <li class="scroll-to-section"><a href="#sector">Sectors</a></li>
               <!-- <li class="scroll-to-section"><a href="#blog">Partners</a></li> -->
               <!-- <li class="scroll-to-section"><a href="#contact">Contact</a></li> -->
               <li class="scroll-to-section">
@@ -125,134 +135,146 @@
   <!-- Banner Section End -->
 
   <!-- Initiative Section -->
-  <section class="initiativeSection">
-    
+  <section class="initiativeSection mx-auto">
+
     <h2>The 'Startup in EU' <span>Initiative</span></h2>
     <p class="initiativePara">Startup in EU is a governmental initiative aimed to supercharge the Maltese startup
-      ecosystem for it to be the <br>birthplace of<br>
-      many more startup success stories in the future.</p>
-      
+      ecosystem for it to be the birthplace of many more startup success stories in the future.</p>
+
     <diV class="initiativebtn">
       <ul>
         <!--Population-->
         <li><a data-toggle="modal" data-target="#population">
             <i class="fa-solid fa-people-group"></i>
-            <span >Population</span>
+            <span>Population</span>
           </a></li>
-            <!--Population Model-->
-          <div class="modal fade" id="population" tabindex="-1" role="dialog" aria-labelledby="populationTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered mx-auto" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="populationTitle"><i class="fa fa-users header-icon" aria-hidden="true"></i>Population</h5>
-                  <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </i>
+        <!--Population Model-->
+        <div class="modal fade" id="population" tabindex="-1" role="dialog" aria-labelledby="populationTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered mx-auto" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="populationTitle"><i class="fa fa-users header-icon"
+                    aria-hidden="true"></i>Population</h5>
+                <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </i>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <img src="./assets/images/Initiative/population (2).png">
                 </div>
-                <div class="row">
-                  <div class="col-sm">
-                    <img src="./assets/images/Initiative/population (2).png">
-                  </div>
-                  <div class="col-sm">
-                    <div class="modal-body">
-                      <p>Malta as at 1st January 2020 had 515,000 inhabitants.Fastest 5-year population average population growth in the EU27 (+3.2%)</p>
-                    </div>
+                <div class="col-sm">
+                  <div class="modal-body">
+                    <p>Startup In EU as at 1st January 2020 had 515,000 inhabitants.Fastest 5-year population average
+                      population growth in the EU27 (+3.2%)</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-            <!--Population Model-End-->
-          <!--Population-End-->
+        </div>
+        <!--Population Model-End-->
+        <!--Population-End-->
 
-          <!--Expats-->
+        <!--Expats-->
         <li><a data-toggle="modal" data-target="#Expats">
             <i class="fa-solid fa-people-roof"></i>
             <span>Expats Share in Working Population</span>
           </a></li>
-          <!--Expats Model-->
-          <div class="modal fade" id="Expats" tabindex="-1" role="dialog" aria-labelledby="ExpatsTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="ExpatsTitle"><i class="fa fa-briefcase header-icon" aria-hidden="true"></i>Expats Share in Working Population</h5>
-                  <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </i>
-                </div>
-                <div class="modal-body">
-                  <p>2020 – circa 25% of all those gainfully occupied in Malta are expats.
+        <!--Expats Model-->
+        <div class="modal fade" id="Expats" tabindex="-1" role="dialog" aria-labelledby="ExpatsTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ExpatsTitle"><i class="fa fa-briefcase header-icon"
+                    aria-hidden="true"></i>Expats Share in Working Population</h5>
+                <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </i>
+              </div>
+              <div class="modal-body">
+                <p>2020 – circa 25% of all those gainfully occupied in Startup In EU are expats.
                   <br>
                   EU nationals (51.2%) / Third country nationals (48.8%).
                   <br>
                   Main countries:<br>
                   Italy (15.4%) / United Kingdom (8.1%)
                   Philippines (7.8%) Serbia (6.9%)
-                  India (6.4%) / Bulgaria (3.9%)</p>
-                </div>
+                  India (6.4%) / Bulgaria (3.9%)
+                </p>
               </div>
             </div>
           </div>
-            <!--Expats Model-End-->
-          <!--Expats-->
+        </div>
+        <!--Expats Model-End-->
+        <!--Expats-->
 
-          <!--EU27-->
+        <!--EU27-->
         <li><a data-toggle="modal" data-target="#EU27">
             <i class="fa-solid fa-earth-europe"></i>
             <span>EU27 Country</span>
           </a></li>
-          <!--EU27 Model-->
-          <div class="modal fade" id="EU27" tabindex="-1" role="dialog" aria-labelledby="EU27Title" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="EU27Title"><i class="fa fa-eur header-icon" aria-hidden="true"></i>EU27 Country</h5>
-                  <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </i>
-                </div>
-                <div class="modal-body">
-                  <h4>EU 27 country and commonwealth</h4>
-                  <p class="para">Malta became a member of the European Union in 2004 and joined the Eurozone in 2008. Furthermore, Malta is part of the Commonwealth and plays an active role in this fora.</p>
-                  <img src="./assets/images/Initiative/EU27.jpg" alt="EU27"><br>
-                  <h4>Currency</h4>
-                  <p>Malta has been using the Euro since 2008.</p><br>
-                  <h4>Languages</h4>
-                  <p>Maltese and English are the two official languages with English being the business language. The majority of the Maltese are bi-lingual while many also speak another language.</p>
-                </div>
+        <!--EU27 Model-->
+        <div class="modal fade" id="EU27" tabindex="-1" role="dialog" aria-labelledby="EU27Title" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="EU27Title"><i class="fa fa-eur header-icon" aria-hidden="true"></i>EU27
+                  Country</h5>
+                <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </i>
+              </div>
+              <div class="modal-body">
+                <h4>EU 27 Country and Commonwealth</h4>
+                <p class="para">Startup In EU became a member of the European Union in 2004 and joined the Eurozone in
+                  2008. Furthermore, Startup In EU is part of the Commonwealth and plays an active role in this fora.
+                </p>
+                <img src="./assets/images/Initiative/EU27.jpg" alt="EU27"><br>
+                <h4>Currency</h4>
+                <p>Startup In EU has been using the Euro since 2008.</p><br>
+                <h4>Languages</h4>
+                <p>Maltese and English are the two official languages with English being the business language. The
+                  majority of the Maltese are bi-lingual while many also speak another language.</p>
               </div>
             </div>
           </div>
-            <!--EU27 Model-End-->
-          <!--EU27-End-->
+        </div>
+        <!--EU27 Model-End-->
+        <!--EU27-End-->
 
-          <!--Air Connections-->
+        <!--Air Connections-->
         <li><a data-toggle="modal" data-target="#Air">
             <i class="fa-solid fa-plane-departure"></i>
             <span>Air Connections</span>
           </a></li>
-          <!--Air Model-->
-          <div class="modal fade" id="Air" tabindex="-1" role="dialog" aria-labelledby="AirTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="AirTitle"><i class="fa fa-plane header-icon" aria-hidden="true"></i>Air Connections</h5>
-                  <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </i>
-                </div>
-                <div class="modal-body">
-                  <p>Malta is directly connected to over 100 major cities including the major hubs of Heathrow, Frankfurt, Moscow, Istanbul and Dubai. Thus, truly connecting Malta to any destination across the globe.</p><br>
-                  <img src="./assets/images/Initiative/airconnection.png">
-                </div>
+        <!--Air Model-->
+        <div class="modal fade" id="Air" tabindex="-1" role="dialog" aria-labelledby="AirTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="AirTitle"><i class="fa fa-plane header-icon" aria-hidden="true"></i>Air
+                  Connections</h5>
+                <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </i>
+              </div>
+              <div class="modal-body">
+                <p>Startup In EU is directly connected to over 100 major cities including the major hubs of Heathrow,
+                  Frankfurt, Moscow, Istanbul and Dubai. Thus, truly connecting Startup In EU to any destination across
+                  the globe.</p><br>
+                <img src="./assets/images/Initiative/airconnection.png">
               </div>
             </div>
           </div>
-            <!--Air Model-End-->
-          <!--Air Connections-End-->
+        </div>
+        <!--Air Model-End-->
+        <!--Air Connections-End-->
       </ul>
     </diV>
-    
+
     <diV class="initiativebtn2">
       <ul>
         <!--Days of Sun-->
@@ -260,107 +282,122 @@
             <i class="fa-solid fa-cloud-sun"></i>
             <span>Days of Sun</span>
           </a></li>
-          <!--Days of Sun Model-->
-          <div class="modal fade" id="Sun" tabindex="-1" role="dialog" aria-labelledby="SunTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="SunTitle"><i class="fa fa-sun-o header-icon" aria-hidden="true"></i>Days of Sun, Entertainment, History, Arts and Culture</h5>
-                  <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </i>
-                </div>
-                <div class="modal-body">
-                    <h4>Days of sun and entertainment</h4>
-                    <p>Malta has over 300 days of a sun in a year with a mild winter and hot dry summers. One can enjoy a day at the beach to walks in the country side. Malta has a number of well renowned entertainment areas where night life is buzzing all week round.</p><br>
-                    <h4>History, Arts and Culture</h4>
-                    <p>The Maltese islands offer a great spectrum of history reflecting the diversity of all civilisations who occupied Malta throughout history. Malta has 3 UNESCO World heritage including the oldest free standing temples in the World (3600 B.C.).</p>
-                </div>
+        <!--Days of Sun Model-->
+        <div class="modal fade" id="Sun" tabindex="-1" role="dialog" aria-labelledby="SunTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="SunTitle"><i class="fa fa-sun-o header-icon" aria-hidden="true"></i>Days of
+                  Sun, Entertainment, History, Arts and Culture</h5>
+                <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </i>
+              </div>
+              <div class="modal-body">
+                <h4>Days of Sun and Entertainment</h4>
+                <p>Startup In EU has over 300 days of a sun in a year with a mild winter and hot dry summers. One can
+                  enjoy a day at the beach to walks in the country side. Startup In EU has a number of well renowned
+                  entertainment areas where night life is buzzing all week round.</p><br>
+                <h4>History, Arts and Culture</h4>
+                <p>The Maltese islands offer a great spectrum of history reflecting the diversity of all civilisations
+                  who occupied Startup In EU throughout history. Startup In EU has 3 UNESCO World heritage including the
+                  oldest free standing temples in the World (3600 B.C.).</p>
               </div>
             </div>
           </div>
-            <!--Days of Sun Model-End-->
-          <!--Days of Sun-End-->
+        </div>
+        <!--Days of Sun Model-End-->
+        <!--Days of Sun-End-->
 
-          <!--Safe Destination-->
+        <!--Safe Destination-->
         <li><a data-toggle="modal" data-target="#Safe">
             <i class="fa-solid fa-shield-heart"></i>
             <span>Safe Destination</span>
           </a></li>
-           <!--Safe Destination Model-->
-           <div class="modal fade" id="Safe" tabindex="-1" role="dialog" aria-labelledby="SafeTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="SafeTitle"><i class="fa-solid fa-shield-heart header-icon" aria-hidden="true"></i>A Safe Destination</h5>
-                  <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </i>
-                </div>
-                <div class="modal-body">
-                   <p>Malta is amongst the safest destinations in the world - one can roam around without any concerns for personal safety. COVID-19 has been handled well, Malta has one of the highest testing and vaccination rates globally. Malta never experienced a full lock down.</p>
-                </div>
+        <!--Safe Destination Model-->
+        <div class="modal fade" id="Safe" tabindex="-1" role="dialog" aria-labelledby="SafeTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="SafeTitle"><i class="fa-solid fa-shield-heart header-icon"
+                    aria-hidden="true"></i>A Safe Destination</h5>
+                <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </i>
+              </div>
+              <div class="modal-body">
+                <p>Startup In EU is amongst the safest destinations in the world - one can roam around without any
+                  concerns for personal safety. COVID-19 has been handled well, Startup In EU has one of the highest
+                  testing and vaccination rates globally. Startup In EU never experienced a full lock down.</p>
               </div>
             </div>
           </div>
-            <!--Safe Destination Model-End-->
-          <!--Safe Destination-End-->
-          
-          <!--Real GDP-->
+        </div>
+        <!--Safe Destination Model-End-->
+        <!--Safe Destination-End-->
+
+        <!--Real GDP-->
         <li><a data-toggle="modal" data-target="#GDP">
             <i class="fa-solid fa-litecoin-sign"></i>
             <span>Real GDP</span>
           </a></li>
-           <!--Safe Destination Model-->
-           <div class="modal fade" id="GDP" tabindex="-1" role="dialog" aria-labelledby="GDPTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="GDPTitle"><i class="fa-solid fa-litecoin-sign header-icon" aria-hidden="true"></i>Real GDP</h5>
-                  <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </i>
-                </div>
-                <div class="modal-body">
-                   <p>On average real GDP in Malta during the last 5 years grew at the rate of +6.4% (second highest in the EU27).</p>
-                </div>
+        <!--Safe Destination Model-->
+        <div class="modal fade" id="GDP" tabindex="-1" role="dialog" aria-labelledby="GDPTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="GDPTitle"><i class="fa-solid fa-litecoin-sign header-icon"
+                    aria-hidden="true"></i>Real GDP</h5>
+                <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </i>
+              </div>
+              <div class="modal-body">
+                <p>On average real GDP in Startup In EU during the last 5 years grew at the rate of +6.4% (second
+                  highest in the EU27).</p>
               </div>
             </div>
           </div>
-            <!--Safe Destination Model-End-->
-          <!--Real GDP-End-->
+        </div>
+        <!--Safe Destination Model-End-->
+        <!--Real GDP-End-->
 
-          <!--Diversified Economy-->
+        <!--Diversified Economy-->
         <li><a data-toggle="modal" data-target="#Economy">
             <i class="fa-solid fa-euro-sign"></i>
             <span>Diversified Economy</span>
           </a></li>
-          <!--Diversified Economy Model-->
-          <div class="modal fade" id="Economy" tabindex="-1" role="dialog" aria-labelledby="EconomyTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="EconomyTitle"><i class="fa-solid fa-euro-sign header-icon" aria-hidden="true"></i>A diversified economy</h5>
-                  <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </i>
-                </div>
-                <div class="modal-body">
-                   <p>The Maltese economy is very well diversified ensuring a level of resiliency to adverse shocks. Alongside sound economic policy, diversification has helped the country to bounce back after recessions and enabled it to grow faster than its EU peers.
-                    <br>
-                    Total GVA 2019 = €12b</p><br>
-                    <img src="./assets/images/Initiative/economy.PNG">
-                </div>
+        <!--Diversified Economy Model-->
+        <div class="modal fade" id="Economy" tabindex="-1" role="dialog" aria-labelledby="EconomyTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="EconomyTitle"><i class="fa-solid fa-euro-sign header-icon"
+                    aria-hidden="true"></i>A Diversified Economy</h5>
+                <i class="fa fa-times-circle-o-3x close fa-2x" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </i>
+              </div>
+              <div class="modal-body">
+                <p>The Maltese economy is very well diversified ensuring a level of resiliency to adverse shocks.
+                  Alongside sound economic policy, diversification has helped the country to bounce back after
+                  recessions and enabled it to grow faster than its EU peers.
+                  <br>
+                  Total GVA 2019 = €12b
+                </p><br>
+                <img src="./assets/images/Initiative/economy.PNG">
               </div>
             </div>
           </div>
-            <!--Diversified Economy Model-End-->
-          <!--Diversified Economy-End-->
+        </div>
+        <!--Diversified Economy Model-End-->
+        <!--Diversified Economy-End-->
       </ul>
-  </div>
+    </div>
   </section>
   <!-- Initiative Section End -->
-  
+
   <!-- About Section -->
   <section id="about">
     <div id="about" class="our-services section">
@@ -383,7 +420,7 @@
                 Turkey for technology companies and start-ups that are interested in expanding abroad.
               </p>
               <div class="main-blue-button">
-                <a href="#">Discover More</a>
+                <a href="./pages/About.html">Discover More</a>
               </div>
             </div>
           </div>
@@ -496,8 +533,144 @@
     </div>
     </div>
     </div>
-  </section>
+  </section><br><br>
   <!-- Service Section End -->
+
+  <!---Sector-->
+  <section class="section-sector" id="sector">
+    <div class="container">
+      <div class="sector-text">
+        <!-- <h6>SECTORS</h6> -->
+        <h2><span style="color: #002194;">Sectors</span> We Serve</h2><br>
+        <p class="sector-paragraph container">We are commited to help you navigate your business and have a concrete
+          plan for a better furture for your start-up. Here are some of the sectors and business types we serve.</p>
+      </div>
+
+      <div class="slider">
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-search fa-3x" aria-hidden="true"></i>
+            <h6>Research & Development</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-paper-plane-o fa-3x" aria-hidden="true"></i>
+            <h6>Drones</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-print fa-3x" aria-hidden="true"></i>
+            <h6>3D Printing</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-pagelines fa-3x" aria-hidden="true"></i>
+            <h6>Agriculture Technology</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-desktop fa-3x" aria-hidden="true"></i>
+            <h6>Visual Arts</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-money fa-3x" aria-hidden="true"></i>
+            <h6>Payment Service Providers</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-credit-card fa-3x" aria-hidden="true"></i>
+            <h6>e-Money Institutions</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-desktop fa-3x" aria-hidden="true"></i>
+            <h6>Cryptocurrencies & Virtual Financial Assets</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-btc fa-3x" aria-hidden="true"></i>
+            <h6>FinTech</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-cogs fa-3x" aria-hidden="true"></i>
+            <h6>Blockchain</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i>
+            <h6>IoT and Artificial Intelligence</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-android fa-3x" aria-hidden="true"></i>
+            <h6>Robotics</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-globe fa-3x" aria-hidden="true"></i>
+            <h6>e-Commerce</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-exchange fa-3x" aria-hidden="true"></i>
+            <h6>Quick Commerce</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+            <h6>Mobility</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-tachometer fa-3x" aria-hidden="true"></i>
+            <h6>MedTech</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-flask fa-3x" aria-hidden="true"></i>
+            <h6>Life Sciences</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-server fa-3x" aria-hidden="true"></i>
+            <h6>ICT Shared Services</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-gamepad fa-3x" aria-hidden="true"></i>
+            <h6>Video Game Development & e-Sports</h6>
+          </a>
+        </div>
+        <div class="icon-sector">
+          <a href="./pages/Sectors.html">
+            <i class="fa fa-film fa-3x" aria-hidden="true"></i>
+            <h6>Film</h6>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---Sector-End-->
 
   <!-- Why Startup In EU -->
   <div id="blog" class="our-blog section">
@@ -525,7 +698,7 @@
                 </a>
                 <p>Start In EU is the EU’s smallest member state, situated in the middle of the Mediterranean...</p>
                 <div class="main-blue-button">
-                  <a href="#">Discover More</a>
+                  <a href="./pages/WhyStatupInEU.html">Discover More</a>
                 </div>
               </div>
             </div>
@@ -575,11 +748,162 @@
     </div>
   </div>
 
+  <!-- stakeholders section -->
+
+  <div id="stakeholders" class=" section">
+    <div class="container stakeholder-container">
+      <h2 style="text-align: center;">Supporting <span style="color: #002194;">Organisations</span> and <span
+          style="color: #ffe300;">Stakeholders</span></h2>
+
+      <div class="slider stake-slider-container align-items-center">
+        <div class="icon-sector stakeholder-slide align-items-center">
+          <img src="./assets/images/slider/1.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/2.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/3.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/4.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/5.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/6.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/7.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/8.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/9.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/10.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/11.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/12.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/13.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/14.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/15.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/16.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/17.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/18.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/19.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/20.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/21.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/22.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/23.png" alt="">
+        </div>
+        <div class="icon-sector stakeholder-slide">
+          <img src="./assets/images/slider/24.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Partners Sections -->
+
+  <section id="partners">
+    <div class="team-container">
+      <div class="teamText-wrapper">
+        <h2 class="teamHeading">Startup In EU<span style="color:#002194"> Partners</span></h2><br>
+        <p class="teamText">Three partners with different backgrounds and different expertise came together to help your
+          business succeed. <br> Get to know our team and specialties.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="teamMember">
+            <div class="teamimg-wrapper">
+              <img src="./assets/images/Members/member1.jpg" alt="">
+              <div class="icon-wrapper">
+                <ul class="icons">
+                  <li class="icon icon1"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-infos">
+              <p class="name">Sarah Noiun</p>
+              <br>
+              <p class="job">Consulting</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="teamMember">
+            <div class="teamimg-wrapper">
+              <img src="./assets/images/Members/member1.jpg" alt="">
+              <div class="icon-wrapper">
+                <ul class="icons">
+                  <li class="icon icon1"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-infos">
+              <p class="name">Sarah Noiun</p>
+              <br>
+              <p class="job">Consulting</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="teamMember">
+            <div class="teamimg-wrapper">
+              <img src="./assets/images/Members/member1.jpg" alt="">
+              <div class="icon-wrapper">
+                <ul class="icons">
+                  <li class="icon icon1"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-infos">
+              <p class="name">Sarah Noiun</p>
+              <br>
+              <p class="job">Consulting</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+`<!-- End of Partners Section -->
+
+  <!-- Contact section -->
   <div id="contact" class="contact-us section">
     <div class="container">
       <img src="./assets/images/blob-scene-haikei.svg" alt="">
       <div class="row contac-row">
-        <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+        <div class="col-lg-5 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
           <div class="section-heading contact-data-section">
             <!-- <h2>Feel Free To Send Us a Message About Your Website Needs</h2> -->
             <h2>Contact Us</h2>
@@ -664,12 +988,12 @@
   </footer>
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-</script>
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
   <script src="https://kit.fontawesome.com/6fb044213a.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -681,6 +1005,14 @@
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
   <script src="assets//js/flip-animation.js"></script>
+  <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/slicker-slide.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
 </body>
 

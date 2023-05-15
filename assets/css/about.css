@@ -1,29 +1,118 @@
-.section-one{
-    display: flex; 
+.aboutSection {
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.93)), url(../images/bc2.jpg);
+}
+.section-one {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 180px;
     min-height: 90vh;
-    background-image: url(../images/about/about.jpg);
+    background-image: url(../images/about/about-banner.png);
+    background-size: cover;
 }
 
-.link{
+.link {
     align-items: center;
     justify-content: center;
-      color: white;
-      font-size: 28px;
-      font-weight: 700;
-      margin-top: -60px;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: -60px;
 }
 
 /*Section Two*/
-.section-two{
-    margin-top: 100px;
+.section-two {
+    padding-top: 100px;
     margin-bottom: 100px;
 }
-h2{
+
+h2 {
     padding: 20px;
     font-weight: bold;
 }
+
 /*Section Two End*/
+
+/* Section One */
+.section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 180px;
+  min-height: 90vh;
+  background-image: url("../images/about/about-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: -60px;
+}
+
+/* Section Two */
+.section-two {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  padding-bottom: 60px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 767px) {
+  /* Section One */
+  .section-one {
+    padding-top: 60px;
+    min-height: 60vh;
+  }
+
+  .link {
+    font-size: 20px;
+    margin-top: -40px;
+  }
+
+  /* Section Two */
+  .section-two {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Section One */
+  .section-one {
+    padding-top: 120px;
+  }
+
+  .link {
+    font-size: 24px;
+    margin-top: -50px;
+  }
+
+  /* Section Two */
+  .section-two {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  h2 {
+    font-size: 28px;
+    padding: 15px;
+  }
+}
