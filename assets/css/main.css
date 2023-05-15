@@ -1041,12 +1041,16 @@ Banner Style
 /* 
 ---------------------------------------------
 Initiative Style
---------------------------------------------- 
+---------------------------------------------
 */
 @media screen and (min-width: 1024px) {
   .initiativeSection {
     background-color: #fefefe;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .initiativeSection a {
@@ -1057,6 +1061,7 @@ Initiative Style
   .initiativePara {
     text-align: center;
     margin-top: 20px;
+    padding: 0 200px;
   }
 
   .initiativeSection h2 {
@@ -1078,13 +1083,12 @@ Initiative Style
     line-height: 30px;
   }
 
-  .initiativebtn ul {
-    position: absolute;
-    margin: 100px 100px 10px 140px;
-    /* top: 50%;
-  left: 50%; */
-    /* transform: translate(-50%, -50%); */
+  .initiativebtn ul,
+  .initiativebtn2 ul {
+    margin: 0;
+    padding: 0;
     display: flex;
+    padding: 40px;
   }
 
   .initiativebtn ul li {
@@ -1166,14 +1170,6 @@ Initiative Style
     background: rgba(0, 33, 148, 0.6);
   }
 
-  .initiativebtn2 ul {
-    position: absolute;
-    margin: 250px 100px 0 140px;
-    /* top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-    display: flex;
-  }
 
   .initiativebtn2 ul li {
     list-style: none;
@@ -1471,7 +1467,7 @@ Initiative Style
   /*Tablet Veiw*/
   .initiativeSection {
     background-color: #fefefe;
-    min-height: 100vh;
+    min-height: 70vh;
   }
 
   .initiativeSection a {
@@ -1482,6 +1478,7 @@ Initiative Style
   .initiativePara {
     text-align: center;
     margin-top: 20px;
+    padding: 0 100px;
   }
 
   .initiativeSection h2 {
@@ -1692,7 +1689,7 @@ Initiative Style
   .modal-dialog {
     max-width: 800px;
   }
-
+  
   .modal-content {
     padding: 30px;
     border-radius: 30px;
@@ -1767,6 +1764,9 @@ Initiative Style
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
   /* CSS rules for tablet view */
+  .initiativeSection{
+    padding-bottom: 0;
+  }
   .modal-dialog {
     max-width: 500px;
   }
@@ -2696,7 +2696,7 @@ contact
 
 .form#contact .contact-dec {
   position: absolute;
-  right: -166px;
+  right: -100px;
   bottom: 0;
 }
 
