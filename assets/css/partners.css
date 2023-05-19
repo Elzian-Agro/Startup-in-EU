@@ -1,0 +1,30 @@
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 180px;
+    min-height: 90vh;
+    background-image: url("../images/Partners/bg.jpg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .section-two {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+  .link {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: -60px;
+}
+
+.justify-content-center{
+    text-align: justify;
+}
