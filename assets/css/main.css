@@ -782,7 +782,38 @@ header
   .dropdown-menu {
     font-size: 8px;
   }
+  
+  .header-area .main-nav .nav li.submenu ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-shadow: none;
+    overflow: visible;
+    opacity: 1;
+    transform: translateY(0%);
+    visibility: visible;
+    z-index: 1;
+    transition: all 0.3s ease-in-out 0s;
+    padding: 0; /* Add padding to the dropdown menu */
+  }
 
+  .header-area .main-nav .nav li.submenu:hover > ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .header-area .main-nav .nav li.submenu ul li a:hover {
+    background-color: transparent;
+    color: #37dbf2 !important;
+    padding-left: 25px;
+  }
+
+  .nav{
+    height: 500px;
+  }
+  
 }
 
 
