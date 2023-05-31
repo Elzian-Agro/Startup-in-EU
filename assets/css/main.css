@@ -186,7 +186,7 @@ ul {
 
 p {
   font-size: 15px;
-  line-height: 30px;
+  line-height: 28px;
   color: #2a2a2a;
 }
 
@@ -524,7 +524,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #37dbf2!important;
+  color: #37dbf2 !important;
   padding-left: 25px;
 }
 
@@ -782,7 +782,7 @@ header
   .dropdown-menu {
     font-size: 8px;
   }
-  
+
   .header-area .main-nav .nav li.submenu ul {
     position: absolute;
     top: 100%;
@@ -795,25 +795,26 @@ header
     visibility: visible;
     z-index: 1;
     transition: all 0.3s ease-in-out 0s;
-    padding: 0; /* Add padding to the dropdown menu */
+    padding: 0;
+    /* Add padding to the dropdown menu */
   }
 
-  .header-area .main-nav .nav li.submenu:hover > ul {
+  .header-area .main-nav .nav li.submenu:hover>ul {
     display: block;
     opacity: 1;
     visibility: visible;
   }
-  
+
   .header-area .main-nav .nav li.submenu ul li a:hover {
     background-color: transparent;
     color: #37dbf2 !important;
     padding-left: 25px;
   }
 
-  .nav{
+  .nav {
     height: 500px;
   }
-  
+
 }
 
 
@@ -966,16 +967,20 @@ Banner Style
 
 .main-banner .left-content h6 {
   /* text-transform: uppercase; */
-  font-size: 18px;
-  color: #002194;
-  margin-bottom: 15px;
+  font-size: 16px;
+  color: #414141;
+  line-height: 35px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .main-banner .left-content h2 {
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 700;
-  color: #414141;
-  line-height: 72px;
+  color: #002194;
+  line-height: 50px;
+  text-align: justify;
+  margin-top: -150px;
 }
 
 .main-banner .left-content h2 em {
@@ -1684,7 +1689,7 @@ Initiative Style
   .modal-dialog {
     max-width: 800px;
   }
-  
+
   .modal-content {
     padding: 30px;
     border-radius: 30px;
@@ -1709,12 +1714,12 @@ Initiative Style
   }
 
   .close {
-    color: rgba(12, 44, 139,0.6);
+    color: rgba(12, 44, 139, 0.6);
     cursor: pointer;
   }
 
   .fa-2x:hover {
-    color: rgba(12, 44, 139,1);
+    color: rgba(12, 44, 139, 1);
   }
 }
 
@@ -1752,21 +1757,22 @@ Initiative Style
   }
 
   .close {
-    color: rgba(12, 44, 139,0.6);
+    color: rgba(12, 44, 139, 0.6);
     cursor: pointer;
   }
 
   .fa-2x:hover {
-    color: rgba(12, 44, 139,1);
+    color: rgba(12, 44, 139, 1);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
   /* CSS rules for tablet view */
-  .initiativeSection{
+  .initiativeSection {
     padding-bottom: 0;
   }
+
   .modal-dialog {
     max-width: 500px;
   }
@@ -2306,7 +2312,7 @@ Sector
   padding-top: 100px;
 }
 
-.sector-text h2{
+.sector-text h2 {
   font-size: 30px;
   letter-spacing: 0.25;
   line-height: 44px;
@@ -2335,7 +2341,7 @@ Sector
   /* Add transition property */
 }
 
-.icon-sector h6{
+.icon-sector h6 {
   color: #2a2a2a;
   font-size: 15px;
   font-weight: 500;
@@ -2369,6 +2375,14 @@ Sector
   display: none !important;
 }
 
+.icon-sector img {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  align-items: center;
+  margin-top: -25px;
+  margin-left: 50px
+}
 
 /* Styles for mobile devices */
 @media only screen and (max-width: 600px) {
@@ -2390,8 +2404,35 @@ Sector
     text-align: center;
   }
 
-  .icon-sector i {
-    padding-top: 50px;
+  .icon-sector img {
+    width: 60%;
+    margin-left: 30px
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .icon-sector img {
+    width: 60%;
+    margin-left: 20px
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  .section-sector {
+    height: 600px;
+    padding-top: 100px;
+  }
+
+  .icon-sector img {
+    width: 60%;
+    margin-left: 25px
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 800px) {
+  .icon-sector img {
+    width: 60%;
+    margin-left: 25px
   }
 }
 
@@ -2543,6 +2584,7 @@ stakeholders
   letter-spacing: 0.25px;
   line-height: 44px;
 }
+
 .stake-slider-container {
   margin-top: 80px;
   margin-bottom: 150px;
@@ -2579,7 +2621,7 @@ stakeholders
     height: auto;
     width: 180px;
     padding-left: 80px;
-    
+
   }
 
 
@@ -2639,10 +2681,10 @@ stakeholders end
 }
 
 .teamimg-wrapper:hover {
-  box-shadow: 2px 2px 12px rgba(0,0,0,0.15);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
 }
 
-.teamimg-wrapper img{
+.teamimg-wrapper img {
   transition: all .5s;
 }
 
@@ -2658,7 +2700,7 @@ stakeholders end
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(0deg, rgba(0,33,148,0.7) 0%, rgba(55,219,242,0.7) 100%);
+  background: linear-gradient(0deg, rgba(0, 33, 148, 0.7) 0%, rgba(55, 219, 242, 0.7) 100%);
   opacity: 0;
   transition: all .5s;
 }
@@ -2682,23 +2724,26 @@ stakeholders end
   margin: 0;
   font-size: 25px;
   /* background-image: linear-gradient(to right, #002194 0%, #37dbf2 100%); */
-  background: rgba(55,219,242,0.6);
+  background: rgba(55, 219, 242, 0.6);
   border-radius: 23px;
   cursor: pointer;
 }
+
 .press p {
   color: #fff;
   font-weight: 500;
 }
-.press a{
+
+.press a {
   text-decoration: none;
   color: #fff;
 }
+
 .press:hover {
-  background: rgba(55,219,242,0.7)
+  background: rgba(55, 219, 242, 0.7)
 }
 
-.team-infos .name{
+.team-infos .name {
   position: relative;
   display: inline-block;
   margin-top: 30px;
@@ -2718,13 +2763,13 @@ stakeholders end
 
 @media (max-width: 768px) {
   .teamMember {
-      margin-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 
 @media (max-width: 550px) {
   .team-container {
-    padding: 20px 25px 25px 50px;  
+    padding: 20px 25px 25px 50px;
   }
 }
 
@@ -2917,28 +2962,32 @@ contact
   background-image: linear-gradient(to left, #002194 0%, #37dbf2 100%);
 }
 
-@media (max-width: 600px){
-  .form#contact{
+@media (max-width: 600px) {
+  .form#contact {
     margin-top: 40px;
   }
+
   .form#contact .contact-dec img {
     visibility: hidden;
   }
+
   .form#contact input {
     height: 36px;
     border-radius: 25px;
     font-size: 12px;
   }
+
   .form#contact textarea {
-    
+
     font-size: 12px;
-   
+
   }
+
   .social-media-icon h4 span i {
     width: 39px;
     height: 39px;
     line-height: 39px;
-   
+
   }
 }
 
