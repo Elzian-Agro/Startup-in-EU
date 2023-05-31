@@ -5,9 +5,21 @@ function sendMail() {
       email: document.getElementById("email").value,
       message: document.getElementById("message").value,
     };
-  
-    const serviceID = "service_cy15zs8";
-    const templateID = "template_v35g9e4";
+
+     
+   if(surname.value === '' || surname.value == null) {
+      alert("Please fill the names !!")
+    }
+    else if(email.value === '' || email.value == null) {
+      alert("Please fill the email !!")
+    }
+    else if(message.value === '' || message.value == null) {
+      alert("Please type your message !!")
+    }
+    else 
+    {
+         const serviceID = "service_cy15zs8";
+        const templateID = "template_v35g9e4";
   
       emailjs.send(serviceID, templateID, params)
       .then(res=>{
@@ -20,9 +32,9 @@ function sendMail() {
   
       })
       .catch(err=>console.log(err));
-
+    }
+  
+   
       
   
   }
-  
-  
