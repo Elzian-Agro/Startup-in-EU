@@ -1004,6 +1004,16 @@ Banner Style
   position: relative;
 }
 
+@media screen and (max-width: 1024px) {
+  .main-banner .left-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #002194;
+    line-height: 50px;
+    text-align: justify;
+    margin-top: -50px;
+  }
+}
 /* .main-banner .left-content form button {
   position: absolute;
   right: 10px;
