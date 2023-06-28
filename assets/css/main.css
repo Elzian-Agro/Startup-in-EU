@@ -930,7 +930,7 @@ Banner Style
 .main-banner {
   width: 100%;
   min-height: 100vh;
-  background-image: url(../images/hero-bg.png);
+  background-image: url(../images/hero-bg.jpg);
   opacity: 0.2;
   background-repeat: no-repeat;
   background-position: center;
@@ -962,42 +962,41 @@ Banner Style
   height: 290px;
 } */
 
-.main-banner .left-content {
+.main-banner .header {
   margin-right: 45px;
 }
 
-.main-banner .left-content h6 {
+.main-banner .banner-para {
   /* text-transform: uppercase; */
-  font-size: 16px;
-  color: #414141;
+  font-size: 20px;
+  color: #fff;
   line-height: 35px;
-  margin-top: 50px;
-  margin-bottom: 40px;
+  margin-top: 200px;
 }
 
-.main-banner .left-content h2 {
+.main-banner .banner-heading {
   font-size: 30px;
   font-weight: 700;
-  color: #000a2c;
+  color: #fff;
   line-height: 50px;
-  text-align: justify;
+  text-align: center;
   margin-top: -150px;
 }
 
-.main-banner .left-content h2 em {
+.main-banner .header h2 em {
   color: #f7ef00;
   font-style: normal;
 }
 
-.main-banner .left-content h2 span {
+.main-banner .header h2 span {
   color: #002194;
 }
 
-.main-banner .left-content p {
+.main-banner .header p {
   margin: 20px 0px;
 }
 
-.main-banner .left-content form {
+.main-banner .header form {
   margin-top: 30px;
   width: 470px;
   height: 66px;
@@ -1005,7 +1004,7 @@ Banner Style
 }
 
 @media screen and (max-width: 1024px) {
-  .main-banner .left-content h2 {
+  .main-banner .header h2 {
     font-size: 30px;
     font-weight: 700;
     color: #002194;
@@ -1014,7 +1013,7 @@ Banner Style
     margin-top: -50px;
   }
 }
-/* .main-banner .left-content form button {
+/* .main-banner .header form button {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -1031,7 +1030,7 @@ Banner Style
   border: none;
 }
 
-.main-banner .left-content form input {
+.main-banner .header form input {
   width: 470px;
   height: 66px;
   background-color: #03a4ed;
@@ -1045,7 +1044,7 @@ Banner Style
   font-weight: 300;
 }
 
-.main-banner .left-content form input::placeholder {
+.main-banner .header form input::placeholder {
   color: #fff;
 } */
 
@@ -2543,30 +2542,30 @@ Blog
   margin-bottom: 30px;
 }
 
-.our-blog .right-list .left-content {
+.our-blog .right-list .header {
   margin-right: 45px;
 }
 
-.our-blog .right-list .left-content span {
+.our-blog .right-list .header span {
   font-size: 15px;
   color: #afafaf;
   font-weight: 300;
 }
 
-.our-blog .right-list .left-content span i {
+.our-blog .right-list .header span i {
   color: #ff4d61;
   font-size: 16px;
   margin-right: 8px;
 }
 
-.our-blog .right-list .left-content h4 {
+.our-blog .right-list .header h4 {
   font-size: 20px;
   font-weight: 700;
   color: #2a2a2a;
   margin: 20px 0px 15px 0px;
 }
 
-.our-blog .right-list .left-content h4:hover {
+.our-blog .right-list .header h4:hover {
   color: #002194;
 }
 
@@ -3062,7 +3061,7 @@ responsive
     padding-top: 196px;
   }
 
-  .main-banner .left-content {
+  .main-banner .header {
     margin-right: 0px;
     text-align: center;
     margin-bottom: 45px;
@@ -3073,8 +3072,8 @@ responsive
     z-index: -1;
   }
 
-  .main-banner .left-content form,
-  .main-banner .left-content form input {
+  .main-banner .header form,
+  .main-banner .header form input {
     width: 100% !important;
   }
 
@@ -3222,7 +3221,7 @@ responsive
     border-top: 1px solid #eee;
   }
 
-  .our-blog .right-list .left-content {
+  .our-blog .right-list .header {
     margin-right: 0px;
     width: 100%;
     margin-bottom: 15px;
