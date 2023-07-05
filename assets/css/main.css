@@ -1048,6 +1048,8 @@ Banner Style
   color: #fff;
 } */
 
+
+
 /* 
 ---------------------------------------------
 Initiative Style
@@ -1547,7 +1549,7 @@ Initiative Style
     text-decoration: none;
     width: 210px;
     height: 80px;
-    background: rgba(55, 219, 242, 0.5);
+    background: rgba(55, 219, 242, 1);
     padding-left: 20px;
     position: relative;
     transition: 0.5s;
@@ -2458,6 +2460,16 @@ Sector End
 Blog
 --------------------------------------------- 
 */
+.left-content h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.left-content p{
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
 
 .our-blog {
   position: relative;
