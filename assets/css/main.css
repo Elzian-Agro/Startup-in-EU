@@ -2792,9 +2792,64 @@ stakeholders end
   line-height: 2;
 }
 
+.address{
+  padding-left: 55px;
+}
+
+.address-mikke{
+  padding-right: 25px;
+}
+
 @media (max-width: 768px) {
   .teamMember {
     margin-bottom: 50px;
+  }
+
+  .address{
+    padding-left: 0;
+  }
+
+  .phone-info {
+    margin-top: 20px;
+  }
+
+  .phone-info h4 {
+    font-size: 18px;
+  }
+
+  .phone-info h4 span i {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .phone-info h4 span a {
+    font-size: 13px;
+  }
+
+  .icons .contact-details {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .icons .address-details,
+  .icons .phone-details {
+    font-size: 14px;
+    display: inline; 
+  }
+
+  .press {
+    width: 100px;
+    height: 30px;
+    margin: 0 0 0 80px;
+    font-size: 20px;
+  }
+
+  .press p {
+    font-size: 12px;
   }
 }
 
