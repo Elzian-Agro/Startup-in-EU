@@ -14,7 +14,7 @@
 .sectors-page-hero-container{
     width: 100%;
     min-height: 80vh;
-    background-image: url(../images/sectors/sector-bg.jpg);
+    background-image: url(../images/sectors/sector-bg.png);
     background-size: cover;
     background-position: center;
 }
