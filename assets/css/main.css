@@ -2463,6 +2463,11 @@ Blog
 .left-content h4{
   font-size: 20px;
   font-weight: 700;
+  color: #2a2a2a;
+}
+
+.left-content h4:hover {
+  color: #293889;
 }
 
 .left-content p{
