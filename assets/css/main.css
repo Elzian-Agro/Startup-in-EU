@@ -969,6 +969,43 @@ Banner Style
   margin-top: 300px;
   -webkit-text-stroke: 1px #293889;
 }
+
+/*Larger Desktop*/
+@media screen and (min-width: 1920px) {
+  .main-banner .banner-para {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 35px;
+    margin-top: 500px;
+    -webkit-text-stroke: 1px #293889;
+  }
+}
+
+/*Tablet iPad Mini*/
+@media only screen and (max-width: 768px) {
+  .main-banner .banner-para {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 35px;
+    margin-top: 600px;
+    -webkit-text-stroke: 1px #293889;
+  }
+}
+
+/*Tablet iPad Air*/
+@media only screen and (max-width: 820px) {
+  .main-banner .banner-para {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 35px;
+    margin-top: 600px;
+    -webkit-text-stroke: 1px #293889;
+  }
+}
+
 .main-banner .banner-heading {
   font-size: 40px;
   font-weight: 700;
