@@ -65,13 +65,10 @@ $.fn.extend({
 				}
 				return overflowRegex.test( parent.css( "overflow" ) + parent.css( "overflow-y" ) + parent.css( "overflow-x" ) );
 			}).eq( 0 );
-
 		return position === "fixed" || !scrollParent.length ? $( this[ 0 ].ownerDocument || document ) : scrollParent;
 	},
-
 	uniqueId: (function() {
 		var uuid = 0;
-
 		return function() {
 			return this.each(function() {
 				if ( !this.id ) {
@@ -80,7 +77,6 @@ $.fn.extend({
 			});
 		};
 	})(),
-
 	removeUniqueId: function() {
 		return this.each(function() {
 			if ( /^ui-id-\d+$/.test( this.id ) ) {
@@ -111,14 +107,12 @@ function focusable( element, isTabIndexNotNaN ) {
 		// the element and all of its ancestors must be visible
 		visible( element );
 }
-
 function visible( element ) {
 	return $.expr.filters.visible( element ) &&
 		!$( element ).parents().addBack().filter(function() {
 			return $.css( this, "visibility" ) === "hidden";
 		}).length;
 }
-
 $.extend( $.expr[ ":" ], {
 	data: $.expr.createPseudo ?
 		$.expr.createPseudo(function( dataName ) {
@@ -188,7 +182,6 @@ if ( !$( "<a>" ).outerWidth( 1 ).jquery ) {
 		};
 	});
 }
-
 // support: jQuery <1.8
 if ( !$.fn.addBack ) {
 	$.fn.addBack = function( selector ) {
@@ -197,7 +190,6 @@ if ( !$.fn.addBack ) {
 		);
 	};
 }
-
 // support: jQuery 1.6.1, 1.6.2 (http://bugs.jquery.com/ticket/9413)
 if ( $( "<a>" ).data( "a-b", "a" ).removeData( "a-b" ).data( "a-b" ) ) {
 	$.fn.removeData = (function( removeData ) {
@@ -210,10 +202,8 @@ if ( $( "<a>" ).data( "a-b", "a" ).removeData( "a-b" ).data( "a-b" ) ) {
 		};
 	})( $.fn.removeData );
 }
-
 // deprecated
 $.ui.ie = !!/msie [\w.]+/.exec( navigator.userAgent.toLowerCase() );
-
 $.fn.extend({
 	focus: (function( orig ) {
 		return function( delay, fn ) {
@@ -230,7 +220,6 @@ $.fn.extend({
 				orig.apply( this, arguments );
 		};
 	})( $.fn.focus ),
-
 	disableSelection: (function() {
 		var eventType = "onselectstart" in document.createElement( "div" ) ?
 			"selectstart" :
@@ -246,12 +235,10 @@ $.fn.extend({
 	enableSelection: function() {
 		return this.unbind( ".ui-disableSelection" );
 	},
-
 	zIndex: function( zIndex ) {
 		if ( zIndex !== undefined ) {
 			return this.css( "zIndex", zIndex );
 		}
-
 		if ( this.length ) {
 			var elem = $( this[ 0 ] ), position, value;
 			while ( elem.length && elem[ 0 ] !== document ) {
@@ -272,7 +259,6 @@ $.fn.extend({
 				elem = elem.parent();
 			}
 		}
-
 		return 0;
 	}
 });
@@ -379,18 +365,14 @@ $.widget = function( name, base, prototype ) {
 	// extend with the existing constructor to carry over any static properties
 	$.extend( constructor, existingConstructor, {
 		version: prototype.version,
-		// copy the object used to create the prototype in case we need to
-		// redefine the widget later
+		
 		_proto: $.extend( {}, prototype ),
-		// track widgets that inherit from this widget in case this widget is
-		// redefined after a widget inherits from it
+		
 		_childConstructors: []
 	});
 
 	basePrototype = new base();
-	// we need to make the options hash a property directly on the new instance
-	// otherwise we'll modify the options hash on the prototype that we're
-	// inheriting from
+	
 	basePrototype.options = $.widget.extend( {}, basePrototype.options );
 	$.each( prototype, function( prop, value ) {
 		if ( !$.isFunction( value ) ) {
