@@ -1856,6 +1856,9 @@ About Us Style
 #about {
   margin-top: 20px;
 }
+#about .about-container{
+  margin-top: 30px;
+}
 
 /* .about-us {
   background-image: url(../images/about-bg.png);
@@ -1993,12 +1996,12 @@ Portfolio
 @media screen and (min-width: 992px) {
   /* Styles for desktop devices */
   #serviceSection {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background: #fafafa;
   }
 
   #serviceSection h2 {
-    padding-top: 50px;
+    padding-top: 130px;
   }
 
   #services {
@@ -2332,6 +2335,8 @@ Portfolio
 Sector
 --------------------------------------------- 
 */
+
+
 .section-sector {
   background-color: #002194;
   margin-top: -50px;
@@ -2351,6 +2356,7 @@ Sector
   letter-spacing: 0.25;
   line-height: 44px;
   font-weight: 700;
+  margin-top: 40px;
 }
 
 .sector-paragraph {
